@@ -1,0 +1,65 @@
+baseURL = "/"
+theme = "hugo-bearcub"
+copyright = ""
+defaultContentLanguage = "en"
+
+enableRobotsTXT = true
+
+[[menu.main]]
+  name = "Github"
+  url = "https://github.com/nezutero"
+  weight = 3
+[[menu.main]]
+  name = "X"
+  url = "https://x.com/nezutero"
+  weight = 4
+[[menu.main]]
+  name = "Telegram"
+  url = "https://t.me/nezutero"
+  weight = 5
+[[menu.main]]
+  name = "LinkedIn"
+  weight = 6
+  url = "https://www.linkedin.com/in/nezutero/"
+[[menu.main]]
+  name = "MAL"
+  url = "https://myanimelist.net/profile/nezutero"
+  weight = 7
+[[menu.main]]
+  name = "Instagram"
+  url = "https://instagram.com/nezutero"
+  weight = 8
+[[menu.main]]
+  name = "Email"
+  weight = 9
+  url = "mailto:nezutero@gmail.com"
+
+[author]
+  name = "github.com/nezutero"
+
+[markup]
+  [markup.highlight]
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = false
+
+[languages]
+  [languages.en]
+    title = "nezutero"
+    languageName = "English"
+    LanguageCode = "en-US"
+    contentDir = "content"
+    [languages.en.params]
+      madeWith = "nezutero"
+
+[params]
+  description = "nezutero"
+  favicon = "images/favicon.ico"
+  title = "nezutero"
+  dateFormat = "2006-01-02"
+  hideUntranslated = false
+  generateSocialCard = true
+  [social]
+    email = "nezutero@gmail.com"
+    github = "nezutero"
+    telegram = "@nezutero"
