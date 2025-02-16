@@ -2,6 +2,7 @@ baseURL = "/"
 theme = "hugo-bearcub"
 copyright = ""
 defaultContentLanguage = "en"
+googleAnalytics = "G-389F7790G5"
 
 enableRobotsTXT = true
 
