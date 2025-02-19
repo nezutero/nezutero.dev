@@ -33,7 +33,7 @@ enableRobotsTXT = true
 [[menu.main]]
   name = "Email"
   weight = 9
-  url = "mailto:nezutero@gmail.com"
+  url = "mailto:nezutero@pm.me"
 
 [author]
   name = "github.com/nezutero"
@@ -61,6 +61,6 @@ enableRobotsTXT = true
   hideUntranslated = false
   generateSocialCard = true
   [social]
-    email = "nezutero@gmail.com"
+    email = "nezutero@pm.me"
     github = "nezutero"
     telegram = "@nezutero"
