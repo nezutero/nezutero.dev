@@ -23,8 +23,8 @@ enableRobotsTXT = true
   weight = 6
   url = "https://www.linkedin.com/in/nezutero/"
 [[menu.main]]
-  name = "MAL"
-  url = "https://myanimelist.net/profile/nezutero"
+  name = "AniList"
+  url = "https://anilist.co/user/nezutero"
   weight = 7
 [[menu.main]]
   name = "Instagram"
