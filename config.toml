@@ -33,7 +33,7 @@ enableRobotsTXT = true
 [[menu.main]]
   name = "Email"
   weight = 9
-  url = "mailto:nezutero@pm.me"
+  url = "mailto:nezutero@gmail.com"
 
 [author]
   name = "github.com/nezutero"
