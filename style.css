@@ -30,6 +30,7 @@ a:hover {
 nav ul {
     list-style: none;
     padding: 0;
+    padding-bottom: 2rem;
 }
 
 nav ul li {
