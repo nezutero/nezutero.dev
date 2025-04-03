@@ -1,12 +1,13 @@
+html,
 body {
-    background-color: #191919;
+    font-family: 'Noto Serif', serif;
     color: #e1e1e1;
-    font-family: 'Inter', sans-serif;
-    line-height: 1.6;
+    background-color: #000;
+    height: 100%;
     margin: 0;
-    padding: 20px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .container {
@@ -35,5 +36,9 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 10px;
+    margin: 0;
+}
+
+li+li::before {
+    content: '// ';
 }
