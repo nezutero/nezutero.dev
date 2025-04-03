@@ -12,7 +12,6 @@ body {
 
 .container {
     max-width: 700px;
-    padding: 20px;
 }
 
 h1 {
@@ -20,18 +19,13 @@ h1 {
 }
 
 a {
-    color: #8ab4f8;
-    text-decoration: none;
-}
-
-a:hover {
+    color: #919191;
     text-decoration: underline;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    padding-bottom: 2rem;
 }
 
 nav ul li {
