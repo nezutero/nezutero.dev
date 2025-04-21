@@ -15,8 +15,6 @@ body {
     max-width: 700px;
     width: calc(100% - 40px);
     margin: 20px;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
 }
 
 h1 {
