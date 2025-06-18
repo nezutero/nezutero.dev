@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nezutero</title>
+    <link>//localhost:3000/</link>
+    <description>Recent content on nezutero</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 18 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:3000/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>//localhost:3000/about/</link>
+      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:3000/about/</guid>
+      <description>&lt;p&gt;My name is Dimitri, also known as nezutero. I’m a software engineer who loves tech, construct high-performance projects, delve into the intricacies of memory, and ultimately engineer remarkable software — and many other things.&lt;/p&gt;&#xA;&lt;p&gt;I’d love for this website of mine to simply be, to exist as it is. No grand purpose, no pressure, just a place to gather my thoughts and share whatever feels right. I’ve aggregated my socials here, so you can follow me without the hassle of searching.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>//localhost:3000/contact/</link>
+      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:3000/contact/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ll only respond to those proposals that are a good match for my schedule and interests. Thank you!&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Email&lt;/strong&gt;: &lt;a href=&#34;mailto:nezutero@gmail.com&#34;&gt;nezutero@gmail.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;LinkedIn&lt;/strong&gt;: &lt;a href=&#34;https://linkedin.com/in/nezutero&#34;&gt;Dimitri Nesterenko&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>FAQ</title>
+      <link>//localhost:3000/faq/</link>
+      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:3000/faq/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Name&lt;/strong&gt;: Dimitri&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Where are you from?&lt;/strong&gt;: I was born and lived in Ukraine for 17 years before I moved to France&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Age&lt;/strong&gt;: 18&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;What&amp;rsquo;s your height?&lt;/strong&gt;: 188 cm&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;What are you?&lt;/strong&gt;: white european&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Orientation&lt;/strong&gt;: straight&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;What&amp;rsquo;s your MBTI?&lt;/strong&gt;: INTJ&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Socials</title>
+      <link>//localhost:3000/socials/</link>
+      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:3000/socials/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt;: &lt;a href=&#34;https://github.com/nezutero&#34;&gt;@nezutero&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;AniList&lt;/strong&gt;: &lt;a href=&#34;https://anilist.co/user/nezutero&#34;&gt;@nezutero&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;LinkedIn&lt;/strong&gt;: &lt;a href=&#34;https://linkedin.com/in/nezutero&#34;&gt;Dimitri Nesterenko&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Email&lt;/strong&gt;: &lt;a href=&#34;mailto:nezutero@gmail.com&#34;&gt;nezutero@gmail.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

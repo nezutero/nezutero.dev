@@ -1,0 +1,63 @@
+baseurl = "/"
+languageCode = "en-us"
+theme = "hugo-theme-terminal"
+pagination.pagerSize = 5
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  contentTypeName = "posts"
+  showMenuItems = 5
+  fullWidthTheme = false
+  centerTheme = true
+  showLanguageSelector = false
+  autoCover = true
+  enableGitInfo = true
+  owner = "nezutero"
+  readMore = "Read more"
+  readOtherPosts = "Read other posts"
+  menuMore = "Show more"
+  newerPosts = "Newer posts"
+  olderPosts = "Older posts"
+  missingContentMessage = "Page not found..."
+  missingBackButtonLabel = "Back to home page"
+  minuteReadingTime = "min read"
+  words = "words"
+  
+
+[languages]
+  [languages.en]
+    title = "nezutero"
+    subtitle = "Software Engineer"
+
+    [languages.en.params.logo]
+      logoText = "home"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "home"
+        name = "Home"
+        url = "/"
+        weight = 4
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "contact"
+        name = "Contact"
+        url = "/contact"
+      [[languages.en.menu.main]]
+        identifier = "socials"
+        name = "Socials"
+        url = "/socials"
+      [[languages.en.menu.main]]
+        identifier = "contact"
+        name = "Contact"
+        url = "/contact"
+        [[languages.en.menu.main]]
+        identifier = "faq"
+        name = "FAQ"
+        url = "/faq"
