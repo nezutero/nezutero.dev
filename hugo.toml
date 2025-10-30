@@ -1,0 +1,113 @@
+baseURL = 'https://nezutero.dev'
+languageCode = 'en-us'
+title = 'nezutero'
+theme = 'typo'
+
+[taxonomies]
+tag = 'tags'
+
+[params]
+# Home meta description
+description = "A non-oriented (maybe a bit) personal blog"
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content in markdown
+homeIntroTitle = 'Bonjour !'
+homeIntroContent = """
+I'm Dimitri Nesterenko, a software engineer interested in various topics, including algorithms, math, Linux and FOSS, philosophy, and reading. This website is my connector to the world and my public journal, where I share thoughts and experiences that I hope will be useful or interesting to someone. Feel free to read more [about me](/about) or explore my [posts](/posts).
+"""
+
+singleDateFormat = '2 Jan 2006'
+
+# Collection to display on home
+# homeCollectionTitle = 'Posts'
+# homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = '02 Jan 2006'
+
+# Footer
+showFooter = false
+
+# Breadcrumbs
+[params.breadcrumbs]
+enabled = true
+showCurrentPage = true
+home = "~"
+
+# Social icons
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/nezutero/"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/nezutero"
+
+[[params.social]]
+name = "email"
+url = "mailto:nezutero@nztr.me"
+
+[[params.social]]
+name = "anilist"
+url = "https://anilist.co/user/nezutero"
+
+# Main menu pages
+# [[params.menu]]
+# name = "home"
+# url = "/"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+[[params.menu]]
+name = "about"
+url = "/about"
+
+
+[[params.menu]]
+name = "library"
+url = "/library"
+
+# [[params.menu]]
+# name = "tags"
+# url = "/tags"
+
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+style = 'gruvbox'
+
+# Deploy settings
+
+[[deployment.matchers]]
+pattern = "^.+\\.(js|css|svg|ttf|woff2)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = true
+
+[[deployment.matchers]]
+pattern = "^.+\\.(png|jpg|gif|webp)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = false
+
+# Giscus comments
+[params.giscus]
+enable = false
+repo = "user/repo"
+repoid = "repoId"
+category = "General"
+categoryid = "categoryId"
+mapping = "pathname"
+theme = "preferred_color_scheme"
+
+[params.umami]
+enable = true
+websiteId = "9d9e66a4-4214-4dd3-a073-8ee1299060b2"
+jsLocation = "https://cloud.umami.is/script.js"
