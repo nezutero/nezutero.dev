@@ -43,12 +43,16 @@ home = "~"
 
 # Social icons
 [[params.social]]
-name = "linkedin"
-url = "https://www.linkedin.com/in/nezutero/"
+name = "x"
+url = "https://x.com/nezutero"
 
 [[params.social]]
 name = "github"
 url = "https://github.com/nezutero"
+
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/nezutero/"
 
 [[params.social]]
 name = "email"
