@@ -54,10 +54,6 @@ url = "https://www.linkedin.com/in/nezutero/"
 name = "email"
 url = "mailto:nezutero@nztr.me"
 
-[[params.social]]
-name = "anilist"
-url = "https://anilist.co/user/nezutero"
-
 # Main menu pages
 # [[params.menu]]
 # name = "home"
