@@ -37,8 +37,8 @@ showFooter = false
 
 # Breadcrumbs
 [params.breadcrumbs]
-enabled = true
-showCurrentPage = true
+enabled = false
+showCurrentPage = false
 home = "~"
 
 # Social icons
@@ -52,7 +52,7 @@ url = "https://www.linkedin.com/in/nezutero/"
 
 [[params.social]]
 name = "email"
-url = "mailto:nezutero@nztr.me"
+url = "mailto:me@nezutero.dev"
 
 # Main menu pages
 # [[params.menu]]
