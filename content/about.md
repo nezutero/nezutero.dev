@@ -26,7 +26,9 @@ I believe in lifelong learning and doing hard things. Each day is an opportunity
 
 ## Stories & Knowledge
 
-I love stories in all forms, mainly — books and manga. The knowledge they offer and the lessons they teach about the world, human nature, and life itself. Rather than list everything I've read, you can explore my [anime & manga library on AniList](https://anilist.co/user/nezutero), or check out my curated [library](/library) of books I've read and want to recommend—only those I consider worth sharing, the ones that taught me something meaningful.
+I love stories in all forms, however books are the only medium I give my time to. The knowledge they offer and the lessons they teach about the world, human nature, and life itself. For a long time, manga and anime were a huge part of my life and shaped who I am in ways I still carry. But at some point I stopped finding meaning in the passive consumption of entertainment-oriented content that keeps you engaged — and felt drawn toward something deeper: real ideas, the real world, complex thought.
+
+Reading. It lets you engage seriously with ideas, train your mind to think abstractly, and genuinely change how you see things — which makes you a better thinker, and a better engineer. Rather than list everything I've read, you can explore [my manga & anime library on AniList](https://anilist.co/user/nezutero), or check out [my curated library of books](https://nezutero.dev/library) I've read and want to recommend — only those I consider worth sharing, the ones that taught me something meaningful.
 
 ## The Purpose of This Website
 
