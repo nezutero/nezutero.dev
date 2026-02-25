@@ -23,7 +23,7 @@
 {{- end }}
 
 {{ if .Param "fediverse" }}
-<meta name="fediverse:creator" content="{{ .Params.Fediverse }}">
+<meta name="fediverse:creator" content="{{ .Params.Fediverse.Url }}">
 {{ end }}
 
 <title>
