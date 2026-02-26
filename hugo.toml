@@ -47,23 +47,12 @@ name = "github"
 url = "https://github.com/nezutero"
 
 [[params.social]]
-name = "X"
-url = "https://x.com/nezutero"
-
-[[params.social]]
-name = "mastodon"
-url = "https://mastodon.social/@nezutero"
-
-[[params.social]]
 name = "linkedin"
 url = "https://www.linkedin.com/in/nezutero/"
 
 [[params.social]]
 name = "email"
 url = "mailto:me@nezutero.dev"
-
-[params.fediverse]
-url = "https://mastodon.social/@nezutero"
 
 # Main menu pages
 # [[params.menu]]
