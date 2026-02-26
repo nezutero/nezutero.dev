@@ -47,6 +47,10 @@ name = "github"
 url = "https://github.com/nezutero"
 
 [[params.social]]
+name = "X"
+url = "https://x.com/nezutero"
+
+[[params.social]]
 name = "mastodon"
 url = "https://mastodon.social/@nezutero"
 
