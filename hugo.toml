@@ -40,10 +40,14 @@ enabled = false
 showCurrentPage = false
 home = "~"
 
-# Social icons
+# Social links
 [[params.social]]
 name = "github"
 url = "https://github.com/nezutero"
+
+[[params.social]]
+name = "mastodon"
+url = "https://c.im/@nezutero"
 
 [[params.social]]
 name = "linkedin"
@@ -52,6 +56,10 @@ url = "https://www.linkedin.com/in/nezutero/"
 [[params.social]]
 name = "email"
 url = "mailto:me@nezutero.dev"
+
+[[params.social]]
+name = "rss"
+url = "/index.xml"
 
 # Main menu pages
 # [[params.menu]]
@@ -110,3 +118,9 @@ theme = "preferred_color_scheme"
 enable = true
 websiteId = "9d9e66a4-4214-4dd3-a073-8ee1299060b2"
 jsLocation = "https://cloud.umami.is/script.js"
+
+[outputs]
+  home = ['html', 'rss']
+  section = ['html', 'rss']
+  taxonomy = ['html']
+  term = ['html']
