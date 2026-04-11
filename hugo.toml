@@ -1,6 +1,6 @@
 baseURL = 'https://nezutero.dev'
 languageCode = 'en-us'
-# title = ''
+title = "nezutero"
 
 [taxonomies]
 tag = 'tags'
@@ -46,15 +46,15 @@ home = "~"
 
 # Social links
 [[params.social]]
-name = "github"
+name = "Github"
 url = "https://github.com/nezutero"
 
 [[params.social]]
-name = "linkedin"
+name = "Linkedin"
 url = "https://www.linkedin.com/in/nezutero/"
 
 [[params.social]]
-name = "email"
+name = "Email"
 url = "mailto:me@nezutero.dev"
 
 # Main menu pages
@@ -63,20 +63,20 @@ url = "mailto:me@nezutero.dev"
 # url = "/"
 
 [[params.menu]]
-name = "home"
+name = "Home"
 url = "/"
 
 [[params.menu]]
-name = "posts"
+name = "Posts"
 url = "/posts"
 
 [[params.menu]]
-name = "about"
+name = "About"
 url = "/about"
 
 
 [[params.menu]]
-name = "library"
+name = "Library"
 url = "/library"
 
 # [[params.menu]]
