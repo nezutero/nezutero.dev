@@ -1,6 +1,6 @@
 baseURL = 'https://nezutero.dev'
 languageCode = 'en-us'
-title = "nezutero"
+title = "nezutero's blog"
 
 [taxonomies]
 tag = 'tags'
@@ -32,8 +32,8 @@ singleDateFormat = '2 Jan 2006'
 
 # Lists parameters
 paginationSize = 100
-listSummaries = true
-listDateFormat = '02 Jan 2006'
+listSummaries = false
+listDateFormat = '02/02/2006'
 
 # Footer
 showFooter = false
