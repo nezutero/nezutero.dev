@@ -10,14 +10,18 @@ tag = 'tags'
 description = "A non-oriented (maybe a bit) personal website-blog"
 
 # Appearance settings
-theme = 'auto'
+theme = 'dark'
 colorPalette = 'default'
 hideHeader = false
 
 # Intro on main page, content in markdown
-homeIntroTitle = ''
+homeIntroTitle = "I think therefore I am"
 homeIntroContent = """
-I'm Dimitri Nesterenko, a software engineer interested in various topics, including algorithms, math, Linux and FOSS, philosophy, and reading. This website is my connector to the world and my public journal, where I share thoughts and experiences that I hope will be useful or interesting to someone. Feel free to read more [about me](/about) or explore my [posts](/posts).
+I'm Dimitri Nesterenko, a software engineer interested in various topics, including algorithms, math, Linux and FOSS, philosophy, and reading. 
+
+This website is my connector to the world and my public journal, where I share thoughts and experiences that I hope will be useful or interesting to someone.
+
+Feel free to read more [about me](/about) or explore my [posts](/posts).
 """
 
 singleDateFormat = '2 Jan 2006'
@@ -46,20 +50,12 @@ name = "github"
 url = "https://github.com/nezutero"
 
 [[params.social]]
-name = "mastodon"
-url = "https://c.im/@nezutero"
-
-[[params.social]]
 name = "linkedin"
 url = "https://www.linkedin.com/in/nezutero/"
 
 [[params.social]]
 name = "email"
 url = "mailto:me@nezutero.dev"
-
-[[params.social]]
-name = "rss"
-url = "/index.xml"
 
 # Main menu pages
 # [[params.menu]]
