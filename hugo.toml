@@ -59,6 +59,10 @@ url = "https://www.linkedin.com/in/nezutero/"
 name = "Email"
 url = "mailto:me@nezutero.dev"
 
+[[params.social]]
+name = "RSS"
+url = "/posts/index.xml"
+
 # Main menu pages
 # [[params.menu]]
 # name = "home"
