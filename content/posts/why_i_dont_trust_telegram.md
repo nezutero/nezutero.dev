@@ -43,9 +43,9 @@ It's been somewhat difficult to deal with. I can't deny reality: many of my frie
 
 WhatsApp is unavoidable here, and I only use it for things I don't particularly care about, or when I simply have no choice -- like staying in the loop with university classmates.
 
-With close friends, my parents, my brother, and anyone willing to stay in touch and get timely responses from me -- I use Signal. It's the best solution I've found, and it more than satisfies me. The challenge is that not many people use it, but that's not as big a problem as it might seem. I actively encourage and promote Signal, and I've had real success moving the people who matter most to me over there.
+With close friends, my parents, my brother, and anyone willing to stay in touch and get timely responses from me -- I use [Signal](https://signal.org). It's the best solution I've found, and it more than satisfies me. The challenge is that not many people use it, but that's not as big a problem as it might seem. I actively encourage and promote [Signal](https://signal.org), and I've had real success moving the people who matter most to me over there.
 
-Other secure options exist, like Element (built on the Matrix protocol) or Threema, but they're so unknown among the people in my life that it's not worth the effort — especially since I'm more than happy with Signal, which is open source and end-to-end encrypted by default.
+Other secure options exist, like [Element](https://element.io/) (built on the [Matrix protocol](https://matrix.org/)) or [Threema](https://threema.com/), but they're so unknown among the people in my life that it's not worth the effort — especially since I'm more than happy with [Signal](https://signal.org), which is [open source](https://github.com/signalapp) and [end-to-end encrypted](https://en.wikipedia.org/wiki/End-to-end_encryption) by default.
 
 Vive le FOSS !
 
