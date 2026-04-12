@@ -4,11 +4,9 @@
     {{ partial "functions/get_hook.html" (dict "hook" "footer_start" "context" .) }}
 
     {{ if not .Site.Params.footerContent }}
-    <p>Powered by
-        <a href="https://gohugo.io/">Hugo</a>
-        and
-        <a href="https://github.com/tomfran/typo">tomfran/typo</a>
-    </p>
+        <a href="{{ .Site.Params.footerMarkLink }}">
+            <div class="footer-mark" style="background-image: url('{{ .Site.Params.footerMark }}')"></div>
+        </a>
     {{ end }}
     
     {{ with .Site.Params.footerContent }}

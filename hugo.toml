@@ -8,6 +8,8 @@ tag = 'tags'
 [params]
 # Home meta description
 description = "A non-oriented (maybe a bit) personal website-blog"
+footerMark = "/brainmade.png"
+footerMarkLink = "https://brainmade.org"
 
 # Appearance settings
 theme = 'dark'
@@ -36,7 +38,7 @@ listSummaries = false
 listDateFormat = '02/02/2006'
 
 # Footer
-showFooter = false
+showFooter = true
 
 # Breadcrumbs
 [params.breadcrumbs]
@@ -78,10 +80,6 @@ url = "/about"
 [[params.menu]]
 name = "Library"
 url = "/library"
-
-# [[params.menu]]
-# name = "tags"
-# url = "/tags"
 
 # Syntax highlight on code blocks
 [markup]
