@@ -47,6 +47,6 @@ With close friends, my parents, my brother, and anyone willing to stay in touch 
 
 Other secure options exist, like Element (built on the Matrix protocol) or Threema, but they're so unknown among the people in my life that it's not worth the effort — especially since I'm more than happy with Signal, which is open source and end-to-end encrypted by default.
 
-Vive le FOSS!
+Vive le FOSS !
 
 Thanks for reading :)
