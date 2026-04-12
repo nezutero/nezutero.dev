@@ -80,10 +80,13 @@ url = "/posts"
 name = "About"
 url = "/about"
 
-
 [[params.menu]]
 name = "Library"
 url = "/library"
+
+[[params.menu]]
+name = "Tags"
+url = "/tags"
 
 # Syntax highlight on code blocks
 [markup]

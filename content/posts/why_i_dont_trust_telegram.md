@@ -2,6 +2,7 @@
 title: "Why I Don't Trust Telegram"
 date: "2026-04-12"
 readTime: true
+tags: ["privacy", "freedom", "telegram", "technology"]
 ---
 
 I don't know where to start, to be honest, but I will start anyway lmao.
