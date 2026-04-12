@@ -47,6 +47,6 @@ With close friends, my parents, my brother, and anyone willing to stay in touch 
 
 Other secure options exist, like [Element](https://element.io/) (built on the [Matrix protocol](https://matrix.org/)) or [Threema](https://threema.com/), but they're so unknown among the people in my life that it's not worth the effort — especially since I'm more than happy with [Signal](https://signal.org), which is [open source](https://github.com/signalapp) and [end-to-end encrypted](https://en.wikipedia.org/wiki/End-to-end_encryption) by default.
 
-Vive le FOSS !
+Vive le [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) !
 
 Thanks for reading :)
