@@ -1,6 +1,5 @@
 ---
-title: "About"
-description: "Some info about nezutero."
+title: "whoami"
 menu: "main"
 weight: 2
 ---
