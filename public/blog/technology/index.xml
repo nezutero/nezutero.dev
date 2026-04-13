@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technology on nezutero</title>
+    <link>http://localhost:3000/blog/technology/</link>
+    <description>Recent content in Technology on nezutero</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <copyright>Copyright © 2026, nezutero</copyright>
+    <lastBuildDate>Sun, 12 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:3000/blog/technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why I Don&#39;t Trust Telegram</title>
+      <link>http://localhost:3000/why-i-dont-trust-telegram/</link>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:3000/why-i-dont-trust-telegram/</guid>
+      <description>&lt;p&gt;I don&amp;rsquo;t know where to start, to be honest, but I will start anyway lmao.&lt;/p&gt;&#xA;&lt;h2 id=&#34;privacy&#34;&gt;Privacy&lt;/h2&gt;&#xA;&lt;p&gt;My Telegram aversion started because of privacy concerns triggered by rumors and verified facts &amp;ndash; like data being shared with governments while Telegram pretends to be the most secure and private messenger that will under no circumstances share anything with anyone. A messenger that claims to champion human rights and free speech, while simultaneously blocking opposition channels to satisfy the requests of corrupt officials who are in power and afraid of losing it.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
