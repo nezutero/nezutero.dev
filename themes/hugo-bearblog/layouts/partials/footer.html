@@ -1,0 +1,5 @@
+<footer>
+  {{ with .Site.Params.email }}<a href="mailto:{{ . }}">email</a>{{ end }} |
+  {{ with .Site.Params.github }}<a href="{{ . }}">github</a>{{ end }} |
+  {{ with .Site.Params.rss }}<a href="{{ . }}">rss</a>{{ end }}
+</footer>
