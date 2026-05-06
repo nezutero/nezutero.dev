@@ -41,7 +41,7 @@ ignoreErrors = ["error-disable-taxonomy"]
   title = "nezutero's blog"
 
   email = "me@nezutero.dev"
-  github = "https://github.com/nezutero"
+  codeberg = "https://codeberg.org/nezutero"
   rss = "blog/index.xml"
 
   # By default, if you want to read more than one blog post you have to always go
