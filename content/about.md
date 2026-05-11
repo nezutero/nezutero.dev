@@ -6,7 +6,7 @@ weight: 2
 
 ## Who I Am
 
-I'm Dimitri Nesterenko, a software engineer originally from Ukraine, now living in Rennes, France. I see my craft as a form of creative problem-solving, something I want to master, building meaningful solutions that help others.
+I'm Dimitri Nesterenko, a computer science student, originally from Ukraine, now living in Rennes, France. I see my craft as a form of creative problem-solving, something I want to master, building meaningful solutions that help others.
 
 I don't believe in limiting myself to a single label. Software engineering is a passion and a craft I'm constantly learning, but it's one facet of who I am, not the whole picture.
 
@@ -18,7 +18,7 @@ I value privacy and freedom, which naturally led me to Linux and the free and op
 
 ## Philosophy & Growth
 
-Beyond engineering, I'm drawn to philosophy and the pursuit of living more deliberately. Nietzsche and Miyamoto Musashi have been particularly important to me, along with certain Stoic ideas. But I stay open and regularly expose myself to different philosophies. I learn from anything, with the idea of being better as a human, be stronger, understand myself and others better, learn more the world and be the best version of myself. I'm a minimalist. I value deep human connections. I find humans interesting, fascinating.
+Beyond computer science, I'm drawn to philosophy and the pursuit of living more deliberately. Nietzsche and Miyamoto Musashi have been particularly important to me, along with certain Stoic ideas. But I stay open and regularly expose myself to different philosophies. I learn from anything, with the idea of being better as a human, be stronger, understand myself and others better, learn more the world and be the best version of myself. I'm a minimalist. I value deep human connections. I find humans interesting, fascinating.
 
 I believe in lifelong learning and doing hard things. Each day is an opportunity to grow.
 
