@@ -1,159 +1,190 @@
 <style>
-  :root {
-    --width: 820px;
-    --font-main: Verdana, sans-serif;
-    --font-secondary: Verdana, sans-serif;
-    --font-scale: 1.1em;
-    --background-color: #fff;
-    --heading-color: #222;
-    --text-color: #444;
-    --link-color: #3273dc;
-    --visited-color: #8b6fcb;
-    --blockquote-color: #222;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --background-color: #000000;
-      --heading-color: #eee;
-      --text-color: #ddd;
-      --link-color: #c0a36e;
-      --visited-color: #76946a;
-      --blockquote-color: #ccc;
+    @font-face {
+        font-family: 'Literata';
+        src: url('/fonts/Literata-Light.woff2') format('woff2');
+        font-weight: light;
+        font-style: normal;
+        font-display: swap;
     }
-  }
 
-  body {
-    font-family: var(--font-secondary);
-    font-size: var(--font-scale);
-    margin: auto;
-    padding: 15px;
-    max-width: var(--width);
-    text-align: left;
-    background-color: var(--background-color);
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    line-height: 1.5;
-    color: var(--text-color);
-  }
+    @font-face {
+        font-family: 'Literata';
+        src: url('/fonts/Literata-LightItalic.woff2') format('woff2');
+        font-weight: light;
+        font-style: italic;
+        font-display: swap;
+    }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: var(--font-main);
-    color: var(--heading-color);
-  }
+    @font-face {
+        font-family: 'Literata';
+        src: url('/fonts/Literata-SemiBold.woff2') format('woff2');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
 
-  a {
-    color: var(--link-color);
-    cursor: pointer;
-    text-decoration: none;
-  }
+    @font-face {
+        font-family: 'Literata';
+        src: url('/fonts/Literata-SemiBoldItalic.woff2') format('woff2');
+        font-weight: bold;
+        font-style: italic;
+        font-display: swap;
+    }
 
-  a:hover {
-    text-decoration: underline;
-  }
+    :root {
+        --width: 820px;
+        --font-main: 'Literata', serif;
+        --font-secondary: 'Literata', serif;
+        --font-scale: 1.1em;
+        --background-color: #fff;
+        --heading-color: #222;
+        --text-color: #444;
+        --link-color: #3273dc;
+        --visited-color: #8b6fcb;
+        --blockquote-color: #222;
+    }
 
-  nav a {
-    margin-right: 8px;
-  }
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --background-color: #000000;
+            --heading-color: #eee;
+            --text-color: #eee;
+            --link-color: #c0a36e;
+            --visited-color: #76946a;
+            --blockquote-color: #ccc;
+        }
+    }
 
-  strong,
-  b {
-    color: var(--heading-color);
-  }
+    body {
+        font-family: var(--font-secondary);
+        font-size: var(--font-scale);
+        margin: auto;
+        padding: 15px;
+        max-width: var(--width);
+        text-align: left;
+        background-color: var(--background-color);
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        line-height: 1.5;
+        color: var(--text-color);
+    }
 
-  button {
-    margin: 0;
-    cursor: pointer;
-  }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: var(--font-main);
+        color: var(--heading-color);
+    }
 
-  time {
-    font-family: monospace;
-    font-style: normal;
-    font-size: 15px;
-  }
+    a {
+        color: var(--link-color);
+        cursor: pointer;
+        text-decoration: none;
+    }
 
-  main {
-    line-height: 1.6;
-  }
+    a:hover {
+        text-decoration: underline;
+    }
 
-  table {
-    width: 100%;
-  }
+    nav a {
+        margin-right: 8px;
+    }
 
-  hr {
-    border: 0;
-    border-top: 1px dashed;
-  }
+    strong,
+    b {
+        color: var(--heading-color);
+    }
 
-  img {
-    max-width: 100%;
-  }
+    button {
+        margin: 0;
+        cursor: pointer;
+    }
 
-  code {
-    font-family: monospace;
-    padding: 2px;
-    border-radius: 3px;
-  }
+    time {
+        font-family: monospace;
+        font-style: normal;
+        font-size: 15px;
+    }
 
-  blockquote {
-    border-left: 1px solid #999;
-    color: var(--blockquote-color);
-    padding-left: 20px;
-    font-style: italic;
-  }
+    main {
+        line-height: 1.6;
+    }
 
-  footer {
-    padding: 25px 0;
-    text-align: center;
-  }
+    table {
+        width: 100%;
+    }
 
-  .title:hover {
-    text-decoration: none;
-  }
+    hr {
+        border: 0;
+        border-top: 1px dashed;
+    }
 
-  .title h1 {
-    font-size: 1.5em;
-  }
+    img {
+        max-width: 100%;
+    }
 
-  .inline {
-    width: auto !important;
-  }
+    code {
+        font-family: monospace;
+        padding: 2px;
+        border-radius: 3px;
+    }
 
-  .highlight,
-  .code {
-    border-radius: 3px;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    overflow-x: auto;
-  }
+    blockquote {
+        border-left: 1px solid #999;
+        color: var(--blockquote-color);
+        padding-left: 20px;
+        font-style: italic;
+    }
 
-  .highlight pre,
-  .code pre {
-    min-width: 100%;
-    width: max-content;
-  }
+    footer {
+        padding: 25px 0;
+        text-align: center;
+    }
 
-  /* blog post list */
-  ul.blog-posts {
-    list-style-type: none;
-    padding: unset;
-  }
+    .title:hover {
+        text-decoration: none;
+    }
 
-  ul.blog-posts li {
-    display: flex;
-  }
+    .title h1 {
+        font-size: 1.5em;
+    }
 
-  ul.blog-posts li span {
-    flex: 0 0 130px;
-  }
+    .inline {
+        width: auto !important;
+    }
 
-  ul.blog-posts li a:visited {
-    color: var(--visited-color);
-  }
+    .highlight,
+    .code {
+        border-radius: 3px;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        overflow-x: auto;
+    }
 
+    .highlight pre,
+    .code pre {
+        min-width: 100%;
+        width: max-content;
+    }
+
+    /* blog post list */
+    ul.blog-posts {
+        list-style-type: none;
+        padding: unset;
+    }
+
+    ul.blog-posts li {
+        display: flex;
+    }
+
+    ul.blog-posts li span {
+        flex: 0 0 130px;
+    }
+
+    ul.blog-posts li a:visited {
+        color: var(--visited-color);
+    }
 </style>
