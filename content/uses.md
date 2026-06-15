@@ -15,7 +15,7 @@ My [dotfiles](https://github.com/nezutero/dotfiles), [NixOS](https://github.com/
 
 ## Software
 
-- **OS**: [NixOS](https://nixos.org/)
+- **OS**: [NixOS](https://nixos.org/) (Switched from Arch btw)
 - **WM/DE**: [Hyprland](https://hyprland.org/) (Wayland)
 - **DM**: [tuigreet](https://github.com/apognu/tuigreet)
 - **Theme**: Kanagawa / Gruvbox material
