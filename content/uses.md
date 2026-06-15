@@ -17,10 +17,10 @@ My [dotfiles](https://github.com/nezutero/dotfiles), [NixOS](https://github.com/
 
 - **OS**: [NixOS](https://nixos.org/)
 - **WM/DE**: [Hyprland](https://hyprland.org/) (Wayland)
-- **DM**: greetd
+- **DM**: [tuigreet](https://github.com/apognu/tuigreet)
 - **Theme**: Kanagawa / Gruvbox material
 - **Term**: [kitty](https://sw.kovidgoyal.net/kitty/)
-- **Shell**: zsh
+- **Shell**: [zsh](https://www.zsh.org/)
 - **Editor**: [Neovim](https://neovim.io/)
 - **File manager**: [yazi](https://github.com/sxyazi/yazi)
 - **Video player**: [mpv](https://mpv.io/)
