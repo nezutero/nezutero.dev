@@ -42,7 +42,6 @@ ignoreErrors = ["error-disable-taxonomy"]
 
   github = "https://github.com/nezutero"
   mastodon = "https://fosstodon.org/@nezutero"
-  bluesky = "https://bsky.app/profile/nezutero.dev"
   email = "me@nezutero.dev"
   rss = "blog/index.xml"
 
