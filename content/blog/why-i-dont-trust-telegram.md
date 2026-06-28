@@ -6,6 +6,8 @@ tags: ["privacy", "freedom", "telegram", "technology"]
 
 I don't know where to start, to be honest, but I will start anyway lmao.
 
+---
+
 ## Privacy
 
 My Telegram aversion started because of privacy concerns triggered by rumors and verified facts -- like data being shared with governments while Telegram pretends to be the most secure and private messenger that will under no circumstances share anything with anyone. A messenger that claims to champion human rights and free speech, while simultaneously blocking opposition channels to satisfy the requests of corrupt officials who are in power and afraid of losing it.
@@ -14,11 +16,15 @@ As you may know, all of your precious chats with friends, family, and loved ones
 
 It's crazy and absurd that we live in a world where our communication, which is an aspect of life that is meant to be private -- simply isn't. They know a great deal about you, and it's barely legal and not ethical by any measure. And indeed, it is their business model, the very thing that keeps them alive. The frightening part is that this is fine with most people: those who don't think about privacy, who don't value their right to it, perhaps until they lose it and realize that the privacy they thought they had was an illusion manufactured by big tech to extract more money.
 
+---
+
 ## Questionable Reputation
 
 There have been various cases where Telegram was caught sharing data or conducting surveillance for governments (I assume you've heard of some of this; I'm also not inclined to dig up links, so I invite you to look into it yourself), or simply being an insecure platform with a dubious reputation as one associated in many countries with drug trafficking. This kind of reputation doesn't form out of nowhere. While some of it may be exaggerated, the overall picture it paints is not one I want anywhere near me.
 
 The man behind the company, Pavel Durov, is a questionable figure, in my humble opinion. Hearing his hypocritical claims about living humbly and simply sounds like a joke, I mean, he has been spotted on private jets and living a rather lavish life on multiple occasions. And that in itself isn't the issue; I'm genuinely glad he's doing well and can afford what he wants. The point is that I cannot stand the image, one I find deeply off-putting, and which gives me no reason whatsoever to want to use a product from someone I have no trust or respect for.
+
+---
 
 ## Support
 
@@ -28,11 +34,15 @@ The story goes like this: my father's Telegram was hacked due to a lapse in judg
 
 Thankfully, I noticed fairly quickly, within a few hours of the incident. The scammers made it impossible to log back in by abusing Telegram's rate limit and then disabling the SMS login option, making account recovery essentially impossible. The only thing I had left to hope for was Telegram support, which is infamous for its glacial response times, if not outright silence. In my case, I have yet to receive any reply, and it has been almost a month since the incident. They pretend to have a support team; in reality, they don't.
 
+---
+
 ## Bloat
 
 Not to mention "useful" features like stories and other bloatware that makes the experience increasingly irritating rather than simple. Do one thing and do it well, so says the Unix philosophy, which I've long been a fan of, along with many others who share it.
 
 I don't need a social network, a gamified experience, crypto, or to hand over my contacts so they can populate a database to be sold. I also don't need to entrust an unaccountable company with storing my messages in plain text. As you can see, I'm done.
+
+---
 
 ## Getting Rid of It
 
@@ -48,4 +58,4 @@ Other secure options exist, like [Element](https://element.io/) (built on the [M
 
 Vive le [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) !
 
-Thanks for reading :)
+Thanks for reading.
