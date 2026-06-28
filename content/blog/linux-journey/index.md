@@ -1,6 +1,6 @@
 ---
 title: "My Linux Odyssey: How I Ended Up on NixOS"
-date: "2026-06-26"
+date: "2026-06-28"
 tags: ["NixOS", "Linux", "Arch Linux", "Journey"]
 ---
 
