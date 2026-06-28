@@ -187,4 +187,23 @@
     ul.blog-posts li a:visited {
         color: var(--visited-color);
     }
+
+    details {
+        margin: 1rem 0;
+    }
+
+    details summary {
+        cursor: pointer;
+        color: var(--link-color);
+        font-weight: 500;
+        user-select: none;
+    }
+
+    details summary:hover {
+        text-decoration: underline;
+    }
+
+    details[open] summary {
+        margin-bottom: 1rem;
+    }
 </style>
