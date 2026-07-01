@@ -4,7 +4,7 @@ date: "2026-07-01"
 tags: ["AI", "LLMs"]
 ---
 
-The following statemen was originaly written by [Anna Liberty](https://gracefulliberty.com/llms/).
+The following statement was originally written by [Anna Liberty](https://gracefulliberty.com/llms/).
 It deeply resonates with who I am and who I want to be. I'm grateful I can use it to express my
 values.
 
