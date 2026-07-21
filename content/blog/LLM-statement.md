@@ -28,10 +28,8 @@ For programming, I write code myself, or generate it deterministically from high
 
 For writing, I use my brain and write it myself, revising it as needed.
 
-For proofreading, I ask my friends.
-
 For searching, I use domain-specific search tools and specific websites.
 
-For learning, I seek out books, tutorials, and other educational material made by people.
+For learning, as far as possible and practicable, I seek out books, tutorials, and other educational material made by people.
 
 For extra support, I ask experts in forums, chatrooms, or via email.
