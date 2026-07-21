@@ -30,9 +30,7 @@ At first I found this liberating. After four weeks, I found it unsettling. I sta
 
 I also worried that NixOS would limit my growth and understanding of the underlying system. On Arch, you had to do everything yourself, which meant learning where things are and why they are there. In NixOS, you learn how to interact with the system through the Nix abstraction, which distances you from the classical interaction model. I felt that distance after four weeks. I could do anything I wanted, but it felt less real somehow.
 
-There is a genuine question lurking here, and I want to be honest about it rather than hand-wave it away.
-
-Does abstracting away from the system prevent you from understanding it? One argument against abstraction is exactly that: it hides the thing it controls, and the knowledge you would have built by interacting with it directly never gets built. On the other hand, that same knowledge becomes partly irrelevant every few years as conventions shift. Does memorizing config file locations and doing things imperatively actually deepen understanding, or is it just familiarity with a particular set of conventions that will eventually change anyway, making the acquired knowledge irrelevant?
+There is a genuine question lurking here. Does abstracting away from the system prevent you from understanding it? One argument against abstraction is exactly that: it hides the thing it controls, and the knowledge you would have built by interacting with it directly never gets built. On the other hand, that same knowledge becomes partly irrelevant every few years as conventions shift. Does memorizing config file locations and doing things imperatively actually deepen understanding, or is it just familiarity with a particular set of conventions that will eventually change anyway, making the acquired knowledge irrelevant?
 
 I cannot deny that the imperative model I used to deal with is responsible for building intuition and understanding about why things work the way they do, how they interact, and how and why they are related to each other.
 
