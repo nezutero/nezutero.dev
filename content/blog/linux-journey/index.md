@@ -1,8 +1,10 @@
 ---
 title: "My Linux Odyssey: How I Ended Up on NixOS"
 date: "2026-06-28"
-tags: ["NixOS", "Linux", "Arch Linux", "Journey"]
+tags: ["NixOS", "Linux", "Arch Linux"]
 ---
+
+*Last updated: 21 July 2026*
 
 *A personal account of distro-hopping, window managers, and eventually finding NixOS.*
 
@@ -39,6 +41,8 @@ After about four months on X11, I decided to make the switch to Wayland. At the 
 {{< gallery src="./images/5.webp" name="Voice acting home studio on arch">}}
 
 During that time I also did a lot of experimenting with other tooling. On the terminal side, I went through Alacritty, Kitty, Foot (a minimal terminal written in C), and Ghostty (written in Zig, btw). For shells, I gave Fish a serious try before eventually returning to Zsh. After all of that, I settled on Kitty as my primary terminal. The deciding factor was image rendering: Kitty supports displaying images and video previews inline, which matters a lot to me because I use the terminal for almost everything, from file browsing and listening to music to watching videos. Alacritty is still the terminal I admire most on a philosophical level, given its focus on minimalism and performance, but the missing image support is a dealbreaker for my specific workflow.
+
+**[21 July 2026] Update:** A few weeks ago, I've switched to [foot](https://codeberg.org/dnkl/foot), which is faster, uses less memory, wayland native, and is quite minimalist -- unlike kitty. It supports image previews and is written in C. It's really great.
 
 {{< gallery src="./images/6.webp" name="Latest arch rice">}}
 
@@ -116,6 +120,10 @@ Do I think I might eventually go all-in and become a full NixOS purist? Maybe. B
 
 - NixOS configs: https://github.com/nezutero/nixos
 
-The next post will be the second part of this one, focusing on my experience with NixOS. It will cover my first month of daily use: what worked, what surprised me, where the rough edges are, what I miss and why, and what I don't miss. I will try to answer the question: is it worth committing yourself to learning NixOS and the Nix language? I had this question before switching, and I've continued thinking about it because NixOS is hard and complex -- these questions arise naturally. This will be the topic of the next post.
+The next post will be the second part of this one, focusing on my experience with NixOS. It will cover my first month of daily use: what worked, what surprised me, where the rough edges are, what I miss and why, and what I don't miss. I will try to answer the question: is it worth committing yourself to learning NixOS and the Nix language? I had this question before switching, and I've continued thinking about it because NixOS is hard and complex -- these questions arise naturally. This will be the topic of the [next post](link).
 
 Thank you for reading.
+
+---
+
+Read the [second part](https://nezutero.dev/almost-went-back-one-month-on-nixos)
