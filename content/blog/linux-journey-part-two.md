@@ -293,3 +293,7 @@ Here are the resources I found most helpful:
 **Example configs to learn from**
 - [nix-starter-configs](https://github.com/Misterio77/nix-starter-configs)
 - [More examples on the NixOS wiki](https://nixos.wiki/wiki/Configuration_Collection)
+
+---
+
+[Boost the post on mastodon](https://fosstodon.org/@nezutero/116960456891051666)
