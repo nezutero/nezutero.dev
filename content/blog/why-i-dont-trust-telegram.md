@@ -4,10 +4,6 @@ date: "2026-04-12"
 tags: ["privacy", "freedom", "telegram", "technology"]
 ---
 
-I don't know where to start, to be honest, but I will start anyway lmao.
-
----
-
 ## Privacy
 
 My Telegram aversion started because of privacy concerns triggered by rumors and verified facts -- like data being shared with governments while Telegram pretends to be the most secure and private messenger that will under no circumstances share anything with anyone. A messenger that claims to champion human rights and free speech, while simultaneously blocking opposition channels to satisfy the requests of corrupt officials who are in power and afraid of losing it.
