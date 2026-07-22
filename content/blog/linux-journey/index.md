@@ -127,3 +127,5 @@ Thank you for reading.
 ---
 
 Read the [second part](https://nezutero.dev/almost-went-back-one-month-on-nixos)
+
+[Boost the post on mastodon](https://fosstodon.org/@nezutero/116828486483274296)
