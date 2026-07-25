@@ -6,7 +6,7 @@ weight: 5
 
 A running list of the hardware and software I use day to day. Inspired by [uses.tech](https://uses.tech).
 
-My [dotfiles](https://github.com/nezutero/dotfiles), [NixOS](https://github.com/nezutero/nixos) and [nvim config](https://github.com/nezutero/dotfiles/tree/main/nvim).
+My [dotfiles](https://codeberg.org/nezutero/dotfiles), [NixOS](https://codeberg.org/nezutero/nixos) and [nvim config](https://codeberg.org/nezutero/dotfiles/src/branch/main/nvim).
 
 ## Hardware
 
