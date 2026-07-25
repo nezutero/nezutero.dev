@@ -1,2 +1,2 @@
 User-Agent: *
-Sitemap: https://nezutero.dev/sitemap.xml
+Sitemap: http://nezutero.dev/sitemap.xml
