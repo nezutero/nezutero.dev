@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Arch Linux on nezutero</title>
+		<link>http://localhost:3000/blog/arch-linux/</link>
+		<description>Recent content in Arch Linux on nezutero</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+			<copyright>Copyright © 2026, nezutero</copyright>
+		
+		
+			<lastBuildDate>Sun, 28 Jun 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:3000/blog/arch-linux/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>My Linux Odyssey: How I Ended Up on NixOS</title>
+				<link>http://localhost:3000/my-linux-odyssey-how-i-ended-up-on-nixos/</link>
+				<pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:3000/my-linux-odyssey-how-i-ended-up-on-nixos/</guid>
+				<description>&lt;p&gt;&lt;em&gt;Last updated: 21 July 2026&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;A personal account of distro-hopping, window managers, and eventually finding NixOS.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;part-1-how-it-all-started&#34;&gt;Part 1: How It All Started&lt;/h2&gt;&#xA;&lt;p&gt;I started using Linux about four years ago. My very first distribution was Fedora, followed by Ubuntu, which I used for about a month before switching back. The main reason I left Ubuntu was its interface; I simply didn&amp;rsquo;t like it. But beneath that was a deeper frustration: bloat. Ubuntu came pre-installed with so much software that, as someone still finding their footing in Linux, I felt completely lost. I tried removing things, but the sheer volume of it all was overwhelming.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

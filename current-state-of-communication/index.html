@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3000&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="http://localhost:3000/images/favicon.png" />
+<title>Current State of Communication | nezutero</title>
+<meta name="title" content="Current State of Communication" />
+<meta name="description" content="In this blog post, I want to express my thoughts on current state of communication; putting emphasis on things like messaging platforms, protocols we use, why we use them and how, how big tech exploats their customers, and how customers live their lives without even knowing that they being exploitated, they are victims, however they are totally ok with this.
+Let&rsquo;s begin our discussion. The first point I want to make is that we live in a world in which capitalism is the way of doing things; whether yoy like it or not. And whether this political system is one of many causes of troubles humanity has or not, I want to focus on the curent state of things and a bit on why it has been happening and why it bothers me/I don&rsquo;t like it." />
+<meta name="keywords" content="privacy,freedom,technology,messaging,communication," />
+
+
+<meta property="og:url" content="http://localhost:3000/current-state-of-communication/">
+	<meta property="og:site_name" content="nezutero">
+	<meta property="og:title" content="Current State of Communication">
+	<meta property="og:description" content="In this blog post, I want to express my thoughts on current state of communication; putting emphasis on things like messaging platforms, protocols we use, why we use them and how, how big tech exploats their customers, and how customers live their lives without even knowing that they being exploitated, they are victims, however they are totally ok with this.
+Let’s begin our discussion. The first point I want to make is that we live in a world in which capitalism is the way of doing things; whether yoy like it or not. And whether this political system is one of many causes of troubles humanity has or not, I want to focus on the curent state of things and a bit on why it has been happening and why it bothers me/I don’t like it.">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="blog">
+		<meta property="article:published_time" content="2026-06-15T00:00:00+00:00">
+		<meta property="article:modified_time" content="2026-06-15T00:00:00+00:00">
+		<meta property="article:tag" content="Privacy">
+		<meta property="article:tag" content="Freedom">
+		<meta property="article:tag" content="Technology">
+		<meta property="article:tag" content="Messaging">
+		<meta property="article:tag" content="Communication">
+		<meta property="og:image" content="http://localhost:3000/images/share.png">
+
+
+
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="http://localhost:3000/images/share.png">
+	<meta name="twitter:title" content="Current State of Communication">
+	<meta name="twitter:description" content="In this blog post, I want to express my thoughts on current state of communication; putting emphasis on things like messaging platforms, protocols we use, why we use them and how, how big tech exploats their customers, and how customers live their lives without even knowing that they being exploitated, they are victims, however they are totally ok with this.
+Let’s begin our discussion. The first point I want to make is that we live in a world in which capitalism is the way of doing things; whether yoy like it or not. And whether this political system is one of many causes of troubles humanity has or not, I want to focus on the curent state of things and a bit on why it has been happening and why it bothers me/I don’t like it.">
+
+
+
+
+	<meta itemprop="name" content="Current State of Communication">
+	<meta itemprop="description" content="In this blog post, I want to express my thoughts on current state of communication; putting emphasis on things like messaging platforms, protocols we use, why we use them and how, how big tech exploats their customers, and how customers live their lives without even knowing that they being exploitated, they are victims, however they are totally ok with this.
+Let’s begin our discussion. The first point I want to make is that we live in a world in which capitalism is the way of doing things; whether yoy like it or not. And whether this political system is one of many causes of troubles humanity has or not, I want to focus on the curent state of things and a bit on why it has been happening and why it bothers me/I don’t like it.">
+	<meta itemprop="datePublished" content="2026-06-15T00:00:00+00:00">
+	<meta itemprop="dateModified" content="2026-06-15T00:00:00+00:00">
+	<meta itemprop="wordCount" content="321">
+	<meta itemprop="image" content="http://localhost:3000/images/share.png">
+	<meta itemprop="keywords" content="Privacy,Freedom,Technology,Messaging,Communication">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+    @font-face {
+        font-family: 'Literata';
+        src: url('/fonts/Literata-Light.woff2') format('woff2');
+        font-weight: light;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Literata';
+        src: url('/fonts/Literata-LightItalic.woff2') format('woff2');
+        font-weight: light;
+        font-style: italic;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Literata';
+        src: url('/fonts/Literata-SemiBold.woff2') format('woff2');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Literata';
+        src: url('/fonts/Literata-SemiBoldItalic.woff2') format('woff2');
+        font-weight: bold;
+        font-style: italic;
+        font-display: swap;
+    }
+
+    :root {
+        --width: 820px;
+        --font-main: 'Literata', serif;
+        --font-secondary: 'Literata', serif;
+        --font-scale: 1.1em;
+        --background-color: #fff;
+        --heading-color: #222;
+        --text-color: #444;
+        --link-color: #3273dc;
+        --visited-color: #8b6fcb;
+        --blockquote-color: #222;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --background-color: #000000;
+            --heading-color: #eee;
+            --text-color: #ddd;
+            --link-color: #c0a36e;
+            --visited-color: #76946a;
+            --blockquote-color: #ccc;
+        }
+    }
+
+    body {
+        font-family: var(--font-secondary);
+        font-size: var(--font-scale);
+        margin: auto;
+        padding: 15px;
+        max-width: var(--width);
+        text-align: left;
+        background-color: var(--background-color);
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        line-height: 1.5;
+        color: var(--text-color);
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: var(--font-main);
+        color: var(--heading-color);
+    }
+
+    a {
+        color: var(--link-color);
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    nav a {
+        margin-right: 8px;
+    }
+
+    strong,
+    b {
+        color: var(--heading-color);
+    }
+
+    button {
+        margin: 0;
+        cursor: pointer;
+    }
+
+    time {
+        font-family: monospace;
+        font-style: normal;
+        font-size: 15px;
+    }
+
+    main {
+        line-height: 1.6;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    hr {
+        border: 0;
+        border-top: 1px dashed;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    code {
+        font-family: monospace;
+        padding: 2px;
+        border-radius: 3px;
+    }
+
+    blockquote {
+        border-left: 1px solid #999;
+        color: var(--blockquote-color);
+        padding-left: 20px;
+        font-style: italic;
+    }
+
+    footer {
+        padding: 25px 0;
+        text-align: center;
+    }
+
+    .title:hover {
+        text-decoration: none;
+    }
+
+    .title h1 {
+        font-size: 1.5em;
+    }
+
+    .inline {
+        width: auto !important;
+    }
+
+    .highlight,
+    .code {
+        border-radius: 3px;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        overflow-x: auto;
+    }
+
+    .highlight pre,
+    .code pre {
+        min-width: 100%;
+        width: max-content;
+    }
+
+     
+    ul.blog-posts {
+        list-style-type: none;
+        padding: unset;
+    }
+
+    ul.blog-posts li {
+        display: flex;
+    }
+
+    ul.blog-posts li span {
+        flex: 0 0 130px;
+    }
+
+    ul.blog-posts li a:visited {
+        color: var(--visited-color);
+    }
+</style>
+
+<script defer src="https://cloud.umami.is/script.js" data-website-id="9d9e66a4-4214-4dd3-a073-8ee1299060b2"></script>
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>nezutero</h2>
+</a>
+<nav>
+<a href="/">home</a>
+
+<a href="/about/">whoami</a>
+
+<a href="/blog/">blog</a>
+
+<a href="/library/">library</a>
+
+<a href="/uses/">uses</a>
+
+</nav>
+</header>
+  <main>
+
+<h1>Current State of Communication</h1>
+<p>
+  <i>
+    <time datetime='2026-06-15'>
+      15 Jun, 2026
+    </time>
+  </i>
+</p>
+
+<content>
+  <p>In this blog post, I want to express my thoughts on current state of communication; putting emphasis on things like messaging platforms, protocols we use, why we use them and how, how big tech exploats their customers, and how customers live their lives without even knowing that they being exploitated, they are victims, however they are totally ok with this.</p>
+<p>Let&rsquo;s begin our discussion. The first point I want to make is that we live in a world in which capitalism is the way of doing things; whether yoy like it or not. And whether this political system is one of many causes of troubles humanity has or not, I want to focus on the curent state of things and a bit on why it has been happening and why it bothers me/I don&rsquo;t like it.</p>
+<p>What is the state of communication nowadays? It seems like humans, majority of them at least uses internet messaging platforms, most of them are centralized, according to the latest &ldquo;trends&rdquo; user data is stored in cloud, thus the origin has total control over the product and the data, which often leads to explotation of authority, which then leads to things such as the product getting worse after gaining a stable userbase that feeds &rsquo;em some cash, selling user data - you name it, in other words [enshitification pattern](link here).</p>
+<p>To exchange data on the transport layer, these internet messaging platforms protocols like http(s), WebSocket, QUIC, etc., things get more interesting on the application layer, where live things like XMPP, Matrix, IRC - these are open source amazing protocol. On the other side - proprietary Protocols; major platforms like WhatsApp, Telegram, and use their custom protocols optimized for their specific needs, often layered on top of HTTP or WebSocket. They are closed source proprietary software, hence we don&rsquo;t know what&rsquo;s the business logic and how it&rsquo;s implemented there, we don&rsquo;t know whether our data is used,</p>
+
+</content>
+
+
+
+<p>
+  
+  <a href="http://localhost:3000/blog/privacy/">#Privacy</a>
+  
+  <a href="http://localhost:3000/blog/freedom/">#Freedom</a>
+  
+  <a href="http://localhost:3000/blog/technology/">#Technology</a>
+  
+  <a href="http://localhost:3000/blog/messaging/">#Messaging</a>
+  
+  <a href="http://localhost:3000/blog/communication/">#Communication</a>
+  
+</p>
+
+  </main>
+  <footer><footer>
+  <a href="mailto:me@nezutero.dev">email</a> /
+  <a href="https://github.com/nezutero">github</a> /
+  <a href="blog/index.xml">rss</a>
+</footer>
+</footer>
+
+  
+</body>
+
+</html>

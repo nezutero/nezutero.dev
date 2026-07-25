@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Messaging on nezutero</title>
+		<link>http://localhost:3000/blog/messaging/</link>
+		<description>Recent content in Messaging on nezutero</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+			<copyright>Copyright © 2026, nezutero</copyright>
+		
+		
+			<lastBuildDate>Mon, 15 Jun 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:3000/blog/messaging/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Current State of Communication</title>
+				<link>http://localhost:3000/current-state-of-communication/</link>
+				<pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:3000/current-state-of-communication/</guid>
+				<description>&lt;p&gt;In this blog post, I want to express my thoughts on current state of communication; putting emphasis on things like messaging platforms, protocols we use, why we use them and how, how big tech exploats their customers, and how customers live their lives without even knowing that they being exploitated, they are victims, however they are totally ok with this.&lt;/p&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s begin our discussion. The first point I want to make is that we live in a world in which capitalism is the way of doing things; whether yoy like it or not. And whether this political system is one of many causes of troubles humanity has or not, I want to focus on the curent state of things and a bit on why it has been happening and why it bothers me/I don&amp;rsquo;t like it.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

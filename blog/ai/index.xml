@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>AI on nezutero</title>
+		<link>http://localhost:3000/blog/ai/</link>
+		<description>Recent content in AI on nezutero</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+			<copyright>Copyright © 2026, nezutero</copyright>
+		
+		
+			<lastBuildDate>Wed, 01 Jul 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:3000/blog/ai/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>LLM Statement</title>
+				<link>http://localhost:3000/llm-statement/</link>
+				<pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:3000/llm-statement/</guid>
+				<description>&lt;p&gt;The following statement was originally written by &lt;a href=&#34;https://gracefulliberty.com/llms/&#34;&gt;Anna Liberty&lt;/a&gt;.&#xA;It deeply resonates with who I am and who I want to be. I&amp;rsquo;m grateful I can use it to express my&#xA;values.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;I do not use LLMs or other &amp;ldquo;Generative AI&amp;rdquo; for prose or code, nor do I accept it from others as open source contributions.&lt;/p&gt;&#xA;&lt;p&gt;I do not discuss my prose or code with LLMs.&lt;/p&gt;&#xA;&lt;p&gt;I do not consult LLMs for projects, contributions, assignments, research, or anything else.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

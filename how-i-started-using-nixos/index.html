@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3000&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="http://localhost:3000/images/favicon.png" />
+<title>How I started using NixOS | nezutero</title>
+<meta name="title" content="How I started using NixOS" />
+<meta name="description" content="A personal account of distro-hopping, window managers, and eventually switching away from Arch Linux.
+
+Part 1: How It All Started
+I started using Linux about four years ago. My very first distribution was Fedora, followed shortly by Ubuntu, which I used for about a month before moving on to Fedora again. The main reason I left Ubuntu was its interface — I simply didn&rsquo;t like it. But beneath that was a deeper frustration: bloat. Ubuntu shipped with so much pre-installed software that, as someone still finding their footing with Linux, I felt completely lost. I tried removing things, but the sheer volume of it all was overwhelming." />
+<meta name="keywords" content="NixOS,Linux,Arch Linux,Journey," />
+
+
+<meta property="og:url" content="http://localhost:3000/how-i-started-using-nixos/">
+	<meta property="og:site_name" content="nezutero">
+	<meta property="og:title" content="How I started using NixOS">
+	<meta property="og:description" content="A personal account of distro-hopping, window managers, and eventually switching away from Arch Linux.
+Part 1: How It All Started I started using Linux about four years ago. My very first distribution was Fedora, followed shortly by Ubuntu, which I used for about a month before moving on to Fedora again. The main reason I left Ubuntu was its interface — I simply didn’t like it. But beneath that was a deeper frustration: bloat. Ubuntu shipped with so much pre-installed software that, as someone still finding their footing with Linux, I felt completely lost. I tried removing things, but the sheer volume of it all was overwhelming.">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="blog">
+		<meta property="article:published_time" content="2026-06-26T00:00:00+00:00">
+		<meta property="article:modified_time" content="2026-06-26T00:00:00+00:00">
+		<meta property="article:tag" content="NixOS">
+		<meta property="article:tag" content="Linux">
+		<meta property="article:tag" content="Arch Linux">
+		<meta property="article:tag" content="Journey">
+		<meta property="og:image" content="http://localhost:3000/images/share.png">
+
+
+
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="http://localhost:3000/images/share.png">
+	<meta name="twitter:title" content="How I started using NixOS">
+	<meta name="twitter:description" content="A personal account of distro-hopping, window managers, and eventually switching away from Arch Linux.
+Part 1: How It All Started I started using Linux about four years ago. My very first distribution was Fedora, followed shortly by Ubuntu, which I used for about a month before moving on to Fedora again. The main reason I left Ubuntu was its interface — I simply didn’t like it. But beneath that was a deeper frustration: bloat. Ubuntu shipped with so much pre-installed software that, as someone still finding their footing with Linux, I felt completely lost. I tried removing things, but the sheer volume of it all was overwhelming.">
+
+
+
+
+	<meta itemprop="name" content="How I started using NixOS">
+	<meta itemprop="description" content="A personal account of distro-hopping, window managers, and eventually switching away from Arch Linux.
+Part 1: How It All Started I started using Linux about four years ago. My very first distribution was Fedora, followed shortly by Ubuntu, which I used for about a month before moving on to Fedora again. The main reason I left Ubuntu was its interface — I simply didn’t like it. But beneath that was a deeper frustration: bloat. Ubuntu shipped with so much pre-installed software that, as someone still finding their footing with Linux, I felt completely lost. I tried removing things, but the sheer volume of it all was overwhelming.">
+	<meta itemprop="datePublished" content="2026-06-26T00:00:00+00:00">
+	<meta itemprop="dateModified" content="2026-06-26T00:00:00+00:00">
+	<meta itemprop="wordCount" content="1188">
+	<meta itemprop="image" content="http://localhost:3000/images/share.png">
+	<meta itemprop="keywords" content="NixOS,Linux,Arch Linux,Journey">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+    @font-face {
+        font-family: 'Literata';
+        src: url('/fonts/Literata-Light.woff2') format('woff2');
+        font-weight: light;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Literata';
+        src: url('/fonts/Literata-LightItalic.woff2') format('woff2');
+        font-weight: light;
+        font-style: italic;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Literata';
+        src: url('/fonts/Literata-SemiBold.woff2') format('woff2');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Literata';
+        src: url('/fonts/Literata-SemiBoldItalic.woff2') format('woff2');
+        font-weight: bold;
+        font-style: italic;
+        font-display: swap;
+    }
+
+    :root {
+        --width: 820px;
+        --font-main: 'Literata', serif;
+        --font-secondary: 'Literata', serif;
+        --font-scale: 1.1em;
+        --background-color: #fff;
+        --heading-color: #222;
+        --text-color: #444;
+        --link-color: #3273dc;
+        --visited-color: #8b6fcb;
+        --blockquote-color: #222;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --background-color: #000000;
+            --heading-color: #eee;
+            --text-color: #ddd;
+            --link-color: #c0a36e;
+            --visited-color: #76946a;
+            --blockquote-color: #ccc;
+        }
+    }
+
+    body {
+        font-family: var(--font-secondary);
+        font-size: var(--font-scale);
+        margin: auto;
+        padding: 15px;
+        max-width: var(--width);
+        text-align: left;
+        background-color: var(--background-color);
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        line-height: 1.5;
+        color: var(--text-color);
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: var(--font-main);
+        color: var(--heading-color);
+    }
+
+    a {
+        color: var(--link-color);
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    nav a {
+        margin-right: 8px;
+    }
+
+    strong,
+    b {
+        color: var(--heading-color);
+    }
+
+    button {
+        margin: 0;
+        cursor: pointer;
+    }
+
+    time {
+        font-family: monospace;
+        font-style: normal;
+        font-size: 15px;
+    }
+
+    main {
+        line-height: 1.6;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    hr {
+        border: 0;
+        border-top: 1px dashed;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    code {
+        font-family: monospace;
+        padding: 2px;
+        border-radius: 3px;
+    }
+
+    blockquote {
+        border-left: 1px solid #999;
+        color: var(--blockquote-color);
+        padding-left: 20px;
+        font-style: italic;
+    }
+
+    footer {
+        padding: 25px 0;
+        text-align: center;
+    }
+
+    .title:hover {
+        text-decoration: none;
+    }
+
+    .title h1 {
+        font-size: 1.5em;
+    }
+
+    .inline {
+        width: auto !important;
+    }
+
+    .highlight,
+    .code {
+        border-radius: 3px;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        overflow-x: auto;
+    }
+
+    .highlight pre,
+    .code pre {
+        min-width: 100%;
+        width: max-content;
+    }
+
+     
+    ul.blog-posts {
+        list-style-type: none;
+        padding: unset;
+    }
+
+    ul.blog-posts li {
+        display: flex;
+    }
+
+    ul.blog-posts li span {
+        flex: 0 0 130px;
+    }
+
+    ul.blog-posts li a:visited {
+        color: var(--visited-color);
+    }
+</style>
+
+<script defer src="https://cloud.umami.is/script.js" data-website-id="9d9e66a4-4214-4dd3-a073-8ee1299060b2"></script>
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>nezutero</h2>
+</a>
+<nav>
+<a href="/">home</a>
+
+<a href="/about/">whoami</a>
+
+<a href="/blog/">blog</a>
+
+<a href="/library/">library</a>
+
+<a href="/uses/">uses</a>
+
+</nav>
+</header>
+  <main>
+
+<h1>How I started using NixOS</h1>
+<p>
+  <i>
+    <time datetime='2026-06-26'>
+      26 Jun, 2026
+    </time>
+  </i>
+</p>
+
+<content>
+  <p><em>A personal account of distro-hopping, window managers, and eventually switching away from Arch Linux.</em></p>
+<hr>
+<h2 id="part-1-how-it-all-started">Part 1: How It All Started</h2>
+<p>I started using Linux about four years ago. My very first distribution was Fedora, followed shortly by Ubuntu, which I used for about a month before moving on to Fedora again. The main reason I left Ubuntu was its interface — I simply didn&rsquo;t like it. But beneath that was a deeper frustration: bloat. Ubuntu shipped with so much pre-installed software that, as someone still finding their footing with Linux, I felt completely lost. I tried removing things, but the sheer volume of it all was overwhelming.</p>
+<p>That&rsquo;s what led me to Fedora. I&rsquo;d heard it was a more &ldquo;advanced&rdquo; distribution, and that reputation drew me in. On Fedora, I quickly fell into the rabbit hole of GNOME customization — tweaks, extensions, hours spent adjusting every small detail. I even have screenshots from that period: early evidence of what would become a lasting obsession.</p>
+<p><img src="./images/1.webp" alt="alt text">
+<img src="./images/2.webp" alt="alt text">
+<img src="./images/3.webp" alt="alt text"></p>
+<p>But the same core frustration eventually resurfaced on Fedora too. I still felt like I didn&rsquo;t have real control over my system. I wanted to choose exactly what went on it — from the display protocol to the window manager to individual applications. And that desire led me to Arch Linux.</p>
+<hr>
+<h2 id="part-2-entering-arch-linux">Part 2: Entering Arch Linux</h2>
+<p>The appeal of Arch Linux is something many Linux users will recognize immediately: a minimal base, total control, and the expectation that you actually know what you&rsquo;re doing. I started using it about three and a half years ago, and from the beginning it felt like exactly the right fit.</p>
+<p>The first thing I wanted to try was something I&rsquo;d been experimenting with near the end of my time on Fedora — switching from a full desktop environment to a standalone window manager. The timing felt perfect: a new operating system and a new way of interacting with my desktop. I set up <strong>bspwm</strong> on X11, with <strong>Polybar</strong> as my status bar and <strong>Zsh</strong> as my shell, complete with plugins and extensions. It worked exactly the way I wanted.</p>
+<hr>
+<h2 id="part-3-going-wayland--hyprland-and-finding-my-tools">Part 3: Going Wayland — Hyprland and Finding My Tools</h2>
+<p>About three years ago, I decided to make the switch to Wayland. At the time, it was still less common than it is today — it felt more like an enthusiast choice than a mainstream one. I started using <strong>Hyprland</strong> as my compositor, paired with <strong>Waybar</strong>, and I&rsquo;ve been refining that configuration ever since.</p>
+<p>Over those three years, I did a lot of experimenting with tooling. On the terminal side, I tried Alacritty, Kitty, Foot (a minimal terminal written in C), and Ghostty (a newer one written in Zig by Mitchell Hashimoto). For shells, I gave Fish a serious try before returning to Zsh. After all of that, I settled on <strong>Kitty</strong> as my primary terminal — mainly because it supports inline image rendering, which matters a lot to me since I use the terminal for almost everything: file browsing, listening to music, watching videos, and more. I still admire Alacritty&rsquo;s minimalist philosophy, but the lack of image support is a dealbreaker for my workflow.</p>
+<hr>
+<h2 id="part-4-why-i-left-arch-linux">Part 4: Why I Left Arch Linux</h2>
+<p>After three and a half years, two things pushed me away from Arch.</p>
+<h3 id="crashes-and-fragility">Crashes and Fragility</h3>
+<p>I experienced two major system failures during my time on Arch. I&rsquo;m the kind of user who constantly tinkers — trying new packages, removing old ones, cleaning the cache, experimenting with obscure forks and unofficial software. Most of the time this was fine. But I also had periods where I skipped updates for a month or two, made changes in the meantime, and then ran a large update all at once. The last time this happened, something went wrong with the bootloader and the system simply refused to boot.</p>
+<p>With no access to a browser, I was reduced to typing error messages into my phone to search for answers. It wasn&rsquo;t catastrophic — it was even a genuinely valuable learning experience — but it was frustrating enough that I didn&rsquo;t want to repeat it.</p>
+<h3 id="system-rot-and-the-imperative-model">System Rot and the Imperative Model</h3>
+<p>The deeper issue, though, wasn&rsquo;t the crashes.</p>
+<p>Over time, I noticed that my Arch system no longer resembled what I&rsquo;d originally installed. Three and a half years of updates, deletions, installations, and tweaks had left it in a state I couldn&rsquo;t fully account for. Even with regular cache cleaning and orphan package removal, the system had drifted. It had become unpredictable. I think of this as <em>system rot</em> — arguably just the natural lifecycle of any OS, but something I found genuinely frustrating to accept.</p>
+<p>Part of the problem is how traditional Linux distributions handle configuration. The model is fundamentally <em>imperative</em>: you run commands, set flags, edit files, and hope you remember everything you did. Some things can be managed declaratively through config files, and if you&rsquo;re disciplined, you collect those in a dotfiles repository and manage them with symlinks. But plenty of things can&rsquo;t be handled that way, which means you end up with shell scripts, install scripts, and a patchwork of automation that needs constant maintenance.</p>
+<p>My own install script almost never worked cleanly. Even on a minimal system, getting back to my previous state after a reinstall took around 30 minutes — and always involved surprises, because I knew I hadn&rsquo;t captured everything. Some changes were simply lost to time.</p>
+<hr>
+<h2 id="part-5-discovering-nixos">Part 5: Discovering NixOS</h2>
+<p>I&rsquo;d known about NixOS for a while. A friend introduced me to it roughly three years ago, when I was just starting out with Arch, and it kept coming up in conversations and articles after that. A few months ago, after a particularly frustrating session with my install script, I decided to properly look into it.</p>
+<p>It turned out to be exactly what I was looking for.</p>
+<p>The core appeal of NixOS is its <em>declarative</em>, purely functional approach to system configuration. Your entire system — packages, services, user settings, dotfiles — is defined in configuration files. The practical results of this are significant:</p>
+<ul>
+<li><strong>Reproducibility</strong>: you can rebuild your exact system on any machine in minutes.</li>
+<li><strong>Atomicity</strong>: updates either fully succeed or fully roll back. No more half-broken states.</li>
+<li><strong>Accountability</strong>: every change is explicit and traceable. The system doesn&rsquo;t drift.</li>
+</ul>
+<p>For someone who had spent years fighting system rot, this felt like a revelation.</p>
+<p>That said, NixOS isn&rsquo;t without its challenges. The Nix language has a steep learning curve. Documentation can be inconsistent. And because there are often multiple ways to solve the same problem, finding the right approach can sometimes take hours. But that&rsquo;s true of mastering any complex tool — and I went through the same experience when I first started with Arch Linux.</p>
+<p>I&rsquo;ve now been using NixOS for about three to four weeks. My expectations going in were perhaps a little too idealistic — no tool is a silver bullet. But the core idea is genuinely powerful, and I believe that with enough investment, it comes remarkably close to one.</p>
+<p><em>Part 2 will cover my first month of daily use: what worked, what surprised me, and where the rough edges are.</em></p>
+
+</content>
+
+
+
+<p>
+  
+  <a href="http://localhost:3000/blog/nixos/">#NixOS</a>
+  
+  <a href="http://localhost:3000/blog/linux/">#Linux</a>
+  
+  <a href="http://localhost:3000/blog/arch-linux/">#Arch Linux</a>
+  
+  <a href="http://localhost:3000/blog/journey/">#Journey</a>
+  
+</p>
+
+  </main>
+  <footer><footer>
+  <a href="mailto:me@nezutero.dev">email</a> /
+  <a href="https://github.com/nezutero">github</a> /
+  <a href="blog/index.xml">rss</a>
+</footer>
+</footer>
+
+  
+</body>
+
+</html>

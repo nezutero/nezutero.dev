@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>blog on nezutero</title>
+		<link>http://localhost:3000/blog/</link>
+		<description>Recent content in blog on nezutero</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+			<copyright>Copyright © 2026, nezutero</copyright>
+		
+		
+			<lastBuildDate>Tue, 21 Jul 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:3000/blog/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Almost Went Back: One Month on NixOS</title>
+				<link>http://localhost:3000/almost-went-back-one-month-on-nixos/</link>
+				<pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:3000/almost-went-back-one-month-on-nixos/</guid>
+				<description>&lt;p&gt;&lt;em&gt;This is Part 2 of my Linux Odyssey series. &lt;a href=&#34;https://nezutero.dev/my-linux-odyssey-how-i-ended-up-on-nixos/&#34;&gt;Part 1&lt;/a&gt; covers my path from Ubuntu through Arch Linux and why I decided to try NixOS in the first place. If you haven&amp;rsquo;t read it, start there.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;the-breaking-point&#34;&gt;The Breaking Point&lt;/h2&gt;&#xA;&lt;p&gt;About a week after I published my first post, I had a crisis of confidence.&lt;/p&gt;&#xA;&lt;p&gt;I had been using NixOS for roughly four weeks at that point, and I was deep in it: learning about flakes, home-manager, the differences between various configuration approaches, the philosophy behind the whole project. I had hit several footguns, sat through long debugging sessions, and felt the weight of having an infinite number of ways to do any given thing. Instead of feeling like I was mastering something, I felt overwhelmed.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>LLM Statement</title>
+				<link>http://localhost:3000/llm-statement/</link>
+				<pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:3000/llm-statement/</guid>
+				<description>&lt;p&gt;The following statement was originally written by &lt;a href=&#34;https://gracefulliberty.com/llms/&#34;&gt;Anna Liberty&lt;/a&gt;.&#xA;It deeply resonates with who I am and who I want to be. I&amp;rsquo;m grateful I can use it to express my&#xA;values.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;I do not use LLMs or other &amp;ldquo;Generative AI&amp;rdquo; for prose or code, nor do I accept it from others as open source contributions.&lt;/p&gt;&#xA;&lt;p&gt;I do not discuss my prose or code with LLMs.&lt;/p&gt;&#xA;&lt;p&gt;I do not consult LLMs for projects, contributions, assignments, research, or anything else.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>My Linux Odyssey: How I Ended Up on NixOS</title>
+				<link>http://localhost:3000/my-linux-odyssey-how-i-ended-up-on-nixos/</link>
+				<pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:3000/my-linux-odyssey-how-i-ended-up-on-nixos/</guid>
+				<description>&lt;p&gt;&lt;em&gt;Last updated: 21 July 2026&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;A personal account of distro-hopping, window managers, and eventually finding NixOS.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;part-1-how-it-all-started&#34;&gt;Part 1: How It All Started&lt;/h2&gt;&#xA;&lt;p&gt;I started using Linux about four years ago. My very first distribution was Fedora, followed by Ubuntu, which I used for about a month before switching back. The main reason I left Ubuntu was its interface; I simply didn&amp;rsquo;t like it. But beneath that was a deeper frustration: bloat. Ubuntu came pre-installed with so much software that, as someone still finding their footing in Linux, I felt completely lost. I tried removing things, but the sheer volume of it all was overwhelming.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Why I Don&#39;t Trust Telegram</title>
+				<link>http://localhost:3000/why-i-dont-trust-telegram/</link>
+				<pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:3000/why-i-dont-trust-telegram/</guid>
+				<description>&lt;h2 id=&#34;privacy&#34;&gt;Privacy&lt;/h2&gt;&#xA;&lt;p&gt;My Telegram aversion started because of privacy concerns triggered by rumors and verified facts &amp;ndash; like data being shared with governments while Telegram pretends to be the most secure and private messenger that will under no circumstances share anything with anyone. A messenger that claims to champion human rights and free speech, while simultaneously blocking opposition channels to satisfy the requests of corrupt officials who are in power and afraid of losing it.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
