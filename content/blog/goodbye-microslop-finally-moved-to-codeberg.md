@@ -53,7 +53,3 @@ Happiness is part of a good life, and it all starts there, in my humble opinion.
 > -- Seneca
 
 Thank you for reading.
-
----
-
-[Boost the post on mastodon](https://fosstodon.org/@nezutero/116986335067183515)
