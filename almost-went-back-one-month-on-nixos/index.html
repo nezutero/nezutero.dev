@@ -1,19 +1,375 @@
-<!doctype html><html lang=en-US><head><meta http-equiv=X-Clacks-Overhead content="GNU Terry Pratchett"><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><link rel="shortcut icon" href=http://nezutero.dev/images/favicon.png><title>Almost Went Back: One Month on NixOS | nezutero</title><meta name=title content="Almost Went Back: One Month on NixOS"><meta name=description content="This is Part 2 of my Linux Odyssey series. Part 1 covers my path from Ubuntu through Arch Linux and why I decided to try NixOS in the first place. If you haven&rsquo;t read it, start there.
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=3000&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="http://localhost:3000/images/favicon.png" />
+<title>Almost Went Back: One Month on NixOS | nezutero</title>
+<meta name="title" content="Almost Went Back: One Month on NixOS" />
+<meta name="description" content="This is Part 2 of my Linux Odyssey series. Part 1 covers my path from Ubuntu through Arch Linux and why I decided to try NixOS in the first place. If you haven&rsquo;t read it, start there.
 
 The Breaking Point
 About a week after I published my first post, I had a crisis of confidence.
-I had been using NixOS for roughly four weeks at that point, and I was deep in it: learning about flakes, home-manager, the differences between various configuration approaches, the philosophy behind the whole project. I had hit several footguns, sat through long debugging sessions, and felt the weight of having an infinite number of ways to do any given thing. Instead of feeling like I was mastering something, I felt overwhelmed."><meta name=keywords content="NixOS,Linux,"><meta property="og:url" content="http://nezutero.dev/almost-went-back-one-month-on-nixos/"><meta property="og:site_name" content="nezutero"><meta property="og:title" content="Almost Went Back: One Month on NixOS"><meta property="og:description" content="This is Part 2 of my Linux Odyssey series. Part 1 covers my path from Ubuntu through Arch Linux and why I decided to try NixOS in the first place. If you haven’t read it, start there.
+I had been using NixOS for roughly four weeks at that point, and I was deep in it: learning about flakes, home-manager, the differences between various configuration approaches, the philosophy behind the whole project. I had hit several footguns, sat through long debugging sessions, and felt the weight of having an infinite number of ways to do any given thing. Instead of feeling like I was mastering something, I felt overwhelmed." />
+<meta name="keywords" content="NixOS,Linux," />
+
+
+<meta property="og:url" content="http://localhost:3000/almost-went-back-one-month-on-nixos/">
+	<meta property="og:site_name" content="nezutero">
+	<meta property="og:title" content="Almost Went Back: One Month on NixOS">
+	<meta property="og:description" content="This is Part 2 of my Linux Odyssey series. Part 1 covers my path from Ubuntu through Arch Linux and why I decided to try NixOS in the first place. If you haven’t read it, start there.
 The Breaking Point About a week after I published my first post, I had a crisis of confidence.
-I had been using NixOS for roughly four weeks at that point, and I was deep in it: learning about flakes, home-manager, the differences between various configuration approaches, the philosophy behind the whole project. I had hit several footguns, sat through long debugging sessions, and felt the weight of having an infinite number of ways to do any given thing. Instead of feeling like I was mastering something, I felt overwhelmed."><meta property="og:locale" content="en_US"><meta property="og:type" content="article"><meta property="article:section" content="blog"><meta property="article:published_time" content="2026-07-21T00:00:00+00:00"><meta property="article:modified_time" content="2026-07-21T00:00:00+00:00"><meta property="article:tag" content="NixOS"><meta property="article:tag" content="Linux"><meta property="og:image" content="http://nezutero.dev/images/share.png"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="http://nezutero.dev/images/share.png"><meta name=twitter:title content="Almost Went Back: One Month on NixOS"><meta name=twitter:description content="This is Part 2 of my Linux Odyssey series. Part 1 covers my path from Ubuntu through Arch Linux and why I decided to try NixOS in the first place. If you haven’t read it, start there.
+I had been using NixOS for roughly four weeks at that point, and I was deep in it: learning about flakes, home-manager, the differences between various configuration approaches, the philosophy behind the whole project. I had hit several footguns, sat through long debugging sessions, and felt the weight of having an infinite number of ways to do any given thing. Instead of feeling like I was mastering something, I felt overwhelmed.">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="blog">
+		<meta property="article:published_time" content="2026-07-21T00:00:00+00:00">
+		<meta property="article:modified_time" content="2026-07-21T00:00:00+00:00">
+		<meta property="article:tag" content="NixOS">
+		<meta property="article:tag" content="Linux">
+		<meta property="og:image" content="http://localhost:3000/images/share.png">
+
+
+
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="http://localhost:3000/images/share.png">
+	<meta name="twitter:title" content="Almost Went Back: One Month on NixOS">
+	<meta name="twitter:description" content="This is Part 2 of my Linux Odyssey series. Part 1 covers my path from Ubuntu through Arch Linux and why I decided to try NixOS in the first place. If you haven’t read it, start there.
 The Breaking Point About a week after I published my first post, I had a crisis of confidence.
-I had been using NixOS for roughly four weeks at that point, and I was deep in it: learning about flakes, home-manager, the differences between various configuration approaches, the philosophy behind the whole project. I had hit several footguns, sat through long debugging sessions, and felt the weight of having an infinite number of ways to do any given thing. Instead of feeling like I was mastering something, I felt overwhelmed."><meta itemprop=name content="Almost Went Back: One Month on NixOS"><meta itemprop=description content="This is Part 2 of my Linux Odyssey series. Part 1 covers my path from Ubuntu through Arch Linux and why I decided to try NixOS in the first place. If you haven’t read it, start there.
+I had been using NixOS for roughly four weeks at that point, and I was deep in it: learning about flakes, home-manager, the differences between various configuration approaches, the philosophy behind the whole project. I had hit several footguns, sat through long debugging sessions, and felt the weight of having an infinite number of ways to do any given thing. Instead of feeling like I was mastering something, I felt overwhelmed.">
+
+
+
+
+	<meta itemprop="name" content="Almost Went Back: One Month on NixOS">
+	<meta itemprop="description" content="This is Part 2 of my Linux Odyssey series. Part 1 covers my path from Ubuntu through Arch Linux and why I decided to try NixOS in the first place. If you haven’t read it, start there.
 The Breaking Point About a week after I published my first post, I had a crisis of confidence.
-I had been using NixOS for roughly four weeks at that point, and I was deep in it: learning about flakes, home-manager, the differences between various configuration approaches, the philosophy behind the whole project. I had hit several footguns, sat through long debugging sessions, and felt the weight of having an infinite number of ways to do any given thing. Instead of feeling like I was mastering something, I felt overwhelmed."><meta itemprop=datePublished content="2026-07-21T00:00:00+00:00"><meta itemprop=dateModified content="2026-07-21T00:00:00+00:00"><meta itemprop=wordCount content="3391"><meta itemprop=image content="http://nezutero.dev/images/share.png"><meta itemprop=keywords content="NixOS,Linux"><meta name=referrer content="no-referrer-when-downgrade"><style>@font-face{font-family:literata;src:url(/fonts/Literata-Light.woff2)format('woff2');font-weight:light;font-style:normal;font-display:swap}@font-face{font-family:literata;src:url(/fonts/Literata-LightItalic.woff2)format('woff2');font-weight:light;font-style:italic;font-display:swap}@font-face{font-family:literata;src:url(/fonts/Literata-SemiBold.woff2)format('woff2');font-weight:700;font-style:normal;font-display:swap}@font-face{font-family:literata;src:url(/fonts/Literata-SemiBoldItalic.woff2)format('woff2');font-weight:700;font-style:italic;font-display:swap}:root{--width:820px;--font-main:'Literata', serif;--font-secondary:'Literata', serif;--font-scale:1.1em;--background-color:#fff;--heading-color:#222;--text-color:#444;--link-color:#3273dc;--visited-color:#8b6fcb;--blockquote-color:#222}@media(prefers-color-scheme:dark){:root{--background-color:#000000;--heading-color:#eee;--text-color:#ddd;--link-color:#c0a36e;--visited-color:#76946a;--blockquote-color:#ccc}}body{font-family:var(--font-secondary);font-size:var(--font-scale);margin:auto;padding:15px;max-width:var(--width);text-align:left;background-color:var(--background-color);word-wrap:break-word;overflow-wrap:break-word;line-height:1.5;color:var(--text-color)}h1,h2,h3,h4,h5,h6{font-family:var(--font-main);color:var(--heading-color)}a{color:var(--link-color);cursor:pointer;text-decoration:none}a:hover{text-decoration:underline}nav a{margin-right:8px}strong,b{color:var(--heading-color)}button{margin:0;cursor:pointer}time{font-family:monospace;font-style:normal;font-size:15px}main{line-height:1.6}table{width:100%}hr{border:0;border-top:1px dashed}img{max-width:100%}code{font-family:monospace;padding:2px;border-radius:3px}blockquote{border-left:1px solid #999;color:var(--blockquote-color);padding-left:20px;font-style:italic}footer{padding:25px 0;text-align:center}.title:hover{text-decoration:none}.title h1{font-size:1.5em}.inline{width:auto!important}.highlight,.code{border-radius:3px;margin-block-start:1em;margin-block-end:1em;overflow-x:auto}.highlight pre,.code pre{min-width:100%;width:max-content}ul.blog-posts{list-style-type:none;padding:unset}ul.blog-posts li{display:flex}ul.blog-posts li span{flex:0 0 130px}ul.blog-posts li a:visited{color:var(--visited-color)}details{margin:1rem 0}details summary{cursor:pointer;color:var(--link-color);font-weight:500;user-select:none}details summary:hover{text-decoration:underline}details[open] summary{margin-bottom:1rem}</style><script defer src=https://cloud.umami.is/script.js data-website-id=549eb798-ce83-4bb7-9e93-41b01da2d7b1></script></head><body><header><a href=/ class=title><h2>nezutero</h2></a><nav><a href=/>home</a>
-<a href=/about/>whoami</a>
-<a href=/blog/>blog</a>
-<a href=/library/>library</a>
-<a href=/uses/>uses</a>
-<a href=/support/>support</a></nav></header><main><h1>Almost Went Back: One Month on NixOS</h1><p><i><time datetime=2026-07-21>21 Jul, 2026</time></i></p><content><p><em>This is Part 2 of my Linux Odyssey series. <a href=https://nezutero.dev/my-linux-odyssey-how-i-ended-up-on-nixos/>Part 1</a> covers my path from Ubuntu through Arch Linux and why I decided to try NixOS in the first place. If you haven&rsquo;t read it, start there.</em></p><hr><h2 id=the-breaking-point>The Breaking Point</h2><p>About a week after I published my first post, I had a crisis of confidence.</p><p>I had been using NixOS for roughly four weeks at that point, and I was deep in it: learning about flakes, home-manager, the differences between various configuration approaches, the philosophy behind the whole project. I had hit several footguns, sat through long debugging sessions, and felt the weight of having an infinite number of ways to do any given thing. Instead of feeling like I was mastering something, I felt overwhelmed.</p><p>I had a prepared Arch Linux ISO on a flash drive. I was seriously considering going back.</p><hr><h2 id=what-i-was-missing-kind-of>What I Was Missing (Kind Of)</h2><p>The main thing pulling me back was not the complexity itself. Complexity I can deal with; I went through something similar when I first switched to Arch. It was something more subtle.</p><p>I missed the way I used to interact with my system.</p><p>On Arch, I had spent years building up a kind of physical intuition about Linux: knowing where configuration files live, understanding what they do, navigating the file system and editing things directly. That knowledge is universal across Unix systems that follow the FHS convention. It feels like real, transferable understanding. On NixOS, the need for most of it simply disappears. You do not go to <code>/etc/resolv.conf</code> to set your DNS; you declare it in a Nix file and NixOS generates the file for you. The abstraction handles it.</p><p>At first I found this liberating. After four weeks, I found it unsettling. I started to wonder whether I was actually learning Linux anymore, or just learning Nix. The two felt like different things, and I was not sure the latter was worth trading the former for.</p><p>I also worried that NixOS would limit my growth and understanding of the underlying system. On Arch, you had to do everything yourself, which meant learning where things are and why they are there. In NixOS, you learn how to interact with the system through the Nix abstraction, which distances you from the classical interaction model. I felt that distance after four weeks. I could do anything I wanted, but it felt less real somehow.</p><p>There is a genuine question lurking here. Does abstracting away from the system prevent you from understanding it? One argument against abstraction is exactly that: it hides the thing it controls, and the knowledge you would have built by interacting with it directly never gets built. On the other hand, that same knowledge becomes partly irrelevant every few years as conventions shift. Does memorizing config file locations and doing things imperatively actually deepen understanding, or is it just familiarity with a particular set of conventions that will eventually change anyway, making the acquired knowledge irrelevant?</p><p>I cannot deny that the imperative model I used to deal with is responsible for building intuition and understanding about why things work the way they do, how they interact, and how and why they are related to each other.</p><p>And yet the question arises: do I need to know everything and manually track so many things, including small, relatively unimportant ones? It is useful in some ways, yet useless in others. There are things I do not want to spend my time on; I just want them to work. At the same time, I want to understand how and why they work. I do not want to live in ignorance of my precious tool, especially if I want to master it.</p><p>I did not have a clean answer. What I had was doubt, a flash drive, and the NixOS Discord server.</p><hr><h2 id=the-community>The Community</h2><p>Rather than just switching back, I decided to post in the NixOS Discord server and hear what experienced users thought. I wrote out where I was:</p><blockquote><p>Hello, I&rsquo;ve been using nix for 3 weeks, switched from arch which i had been using for 3.5 years.</p><p>Tbh, these 3 weeks have been amazing so far: learned a lot of stuff, which is nothing yet, but feels great anyway. After using a completely different approach to defining my system, i&rsquo;ve been both amazed and sad.</p><p>I feel sad because although the nix approach is cool, functional, atomic, defined state, do it one time and it works forever (ideally, if nothing changes in NixOS), yet this led me to less interaction with the system, almost at all, and just &ldquo;controlling&rdquo; it via nix files, and while definiteness and declarativeness is THE way imho; after discovering the nix way, the imperative approach seems as stupid as writing commands one by one instead of creating a reusable .sh file.</p><p>I just cannot see myself forgetting the stuff I have done and losing it, or fixing an issue and after reinstalling the system for whatever reason, and refixing the same thing again after forgetting it was there at all.</p><p>I&rsquo;ve been thinking about moving back to arch recently, I miss the way I used to explore different things about the system, interacting and changing everything I can think of, and learning/understanding FHS and stuff. I mean after years of using arch I memorised locations of different configs and files and what they do, as well as built some kind of intuition, which is almost always useless on NixOS.</p><p>At the same time, I&rsquo;m a big fan of NixOS and functional correctness. Also, compatibility issues caused by not having FHS&mldr; lsp servers in particular, damn it&mldr;&mldr;.</p><p>Anyway, I&rsquo;m confused and idk what to do now, I&rsquo;ve read a lot of stuff about this &ldquo;dilemma&rdquo;, I mean should I switch to a distro with FHS (back to arch) or not.</p><p>Looking for personal opinions from people who had a similar journey as mine.</p><p>Just for info, I use hyprland, pretty much everything is used via terminal, configured and customised, I like control and knowing what and why is in my system.</p></blockquote><p>I received a response from <a href=https://github.com/mightyiam>mightyiam</a>, author of the Full Time Nix podcast and a very active member of the Nix community.</p><p>I explained the LSP issue I had run into with clangd and Neovim due to the lack of FHS, which had taken hours to even begin to understand. I admitted that I had gone in with idealistic expectations and that the reality check was something I genuinely appreciated. And I asked him four questions:</p><ol><li>How long he had been using NixOS</li><li>How he had discovered it</li><li>Why he had switched from classic distros</li><li>Why he kept choosing it over something like Arch</li></ol><p>His answers:</p><blockquote><ol><li>I think it was home-manager before NixOS but it&rsquo;s July 2021: <a href=https://github.com/mightyiam/infra>https://github.com/mightyiam/infra</a></li><li><a href=https://github.com/gomain>https://github.com/gomain</a> told me about it in person</li><li>hrm&mldr; that&rsquo;s a lot. hey, there&rsquo;s this interview of me if you&rsquo;re interested 🤷 <a href=https://youtu.be/0Jij9c9TdWo>https://youtu.be/0Jij9c9TdWo</a></li><li>because I get to keep it, share it across multiple computers, roll back, have finite control over any component, at any depth, contributing is accessible&mldr; cache is helpful&mldr;</li></ol></blockquote><p>Another community member, <a href=https://github.com/EpicEric>EpicEric</a>, also replied:</p><blockquote><p>I&rsquo;m not that experienced but</p><ol><li>Since December 2025</li><li>I&rsquo;d heard about it before, I think I tried to learn it after a post from cafkafk but gave up. After a while I saw some videos from Vimjoyer and tonybtw and decided to give it another go</li><li>I tried it on my laptop first but quickly moved to having it installed on my whole fleet, including my desktop and servers. I was frustrated with how stagnant my usual distros were (Pop!_OS, Fedora), and how often stuff like Arch would break</li><li>NixOS adds its own set of challenges which are undeniably cumbersome, but I like the ease of upgrades and fresh updates, as well as a single git-tracked config for everything. I also like the fact that nixpkgs is open-source and easily inspectable, it lets me be more in control of my system</li></ol></blockquote><p>Reading those responses, something clicked. Point four from mightyiam and point three from EpicEric in particular: &ldquo;I get to keep it&rdquo; and &ldquo;I was frustrated with how often stuff like Arch would break.&rdquo; That is exactly what I had been frustrated about losing with Arch, and exactly what NixOS gives you. The argument for staying was already sitting inside the argument I had been making for leaving.</p><p>I put the flash drive in a drawer.</p><hr><h2 id=your-linux-knowledge-actually-does-apply>Your Linux Knowledge Actually Does Apply</h2><p>One thing I kept reading before switching to NixOS was that your existing Linux knowledge basically does not carry over. You start from scratch, as a complete beginner, in a completely different paradigm.</p><p>After a month of using it, I think this is only partly true, and the part that is false matters a lot.</p><p>Yes, the interaction model is different. Yes, the mental model is different. And yes, you will feel like a beginner at first, because in many ways you are. But the underlying knowledge, what options mean, how services work, what a given configuration actually controls, transfers almost completely. When I search for a NixOS option for something I used to configure imperatively, I usually recognize what it does immediately, because I configured it before. The difference is in syntax and paradigm, not in substance.</p><p>What I had been calling &ldquo;Linux knowledge&rdquo; was actually two different things bundled together: understanding of how systems work, and familiarity with where things live on a particular filesystem. The first transfers perfectly to NixOS. The second becomes largely irrelevant, and whilst that felt like a loss at first, I now think it is fine. Knowing that configuration files live under <code>/etc</code> is useful context, but it is not deep understanding. Deep understanding is knowing what the configuration does and why, and that knowledge is entirely portable.</p><p>If anything, having a solid Arch background makes NixOS easier to learn, not harder. You already have the mental model of what you are trying to build; you just have to learn a new way to express it. The paradigm is new. The substance is not.</p><hr><h2 id=going-all-in-and-learning-why-not-to>Going All-In (and Learning Why Not To)</h2><p>Having decided to stay, I committed fully. I wanted to do everything the Nix way: every application configured through Nix modules, everything modular, fully declarative top to bottom. I ended up with a config structure that looked like this:</p><pre tabindex=0><code>.
+I had been using NixOS for roughly four weeks at that point, and I was deep in it: learning about flakes, home-manager, the differences between various configuration approaches, the philosophy behind the whole project. I had hit several footguns, sat through long debugging sessions, and felt the weight of having an infinite number of ways to do any given thing. Instead of feeling like I was mastering something, I felt overwhelmed.">
+	<meta itemprop="datePublished" content="2026-07-21T00:00:00+00:00">
+	<meta itemprop="dateModified" content="2026-07-21T00:00:00+00:00">
+	<meta itemprop="wordCount" content="3391">
+	<meta itemprop="image" content="http://localhost:3000/images/share.png">
+	<meta itemprop="keywords" content="NixOS,Linux">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+    @font-face {
+        font-family: 'Literata';
+        src: url('/fonts/Literata-Light.woff2') format('woff2');
+        font-weight: light;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Literata';
+        src: url('/fonts/Literata-LightItalic.woff2') format('woff2');
+        font-weight: light;
+        font-style: italic;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Literata';
+        src: url('/fonts/Literata-SemiBold.woff2') format('woff2');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Literata';
+        src: url('/fonts/Literata-SemiBoldItalic.woff2') format('woff2');
+        font-weight: bold;
+        font-style: italic;
+        font-display: swap;
+    }
+
+    :root {
+        --width: 820px;
+        --font-main: 'Literata', serif;
+        --font-secondary: 'Literata', serif;
+        --font-scale: 1.1em;
+        --background-color: #fff;
+        --heading-color: #222;
+        --text-color: #444;
+        --link-color: #3273dc;
+        --visited-color: #8b6fcb;
+        --blockquote-color: #222;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --background-color: #000000;
+            --heading-color: #eee;
+            --text-color: #ddd;
+            --link-color: #c0a36e;
+            --visited-color: #76946a;
+            --blockquote-color: #ccc;
+        }
+    }
+
+    body {
+        font-family: var(--font-secondary);
+        font-size: var(--font-scale);
+        margin: auto;
+        padding: 15px;
+        max-width: var(--width);
+        text-align: left;
+        background-color: var(--background-color);
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        line-height: 1.5;
+        color: var(--text-color);
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: var(--font-main);
+        color: var(--heading-color);
+    }
+
+    a {
+        color: var(--link-color);
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    nav a {
+        margin-right: 8px;
+    }
+
+    strong,
+    b {
+        color: var(--heading-color);
+    }
+
+    button {
+        margin: 0;
+        cursor: pointer;
+    }
+
+    time {
+        font-family: monospace;
+        font-style: normal;
+        font-size: 15px;
+    }
+
+    main {
+        line-height: 1.6;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    hr {
+        border: 0;
+        border-top: 1px dashed;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    code {
+        font-family: monospace;
+        padding: 2px;
+        border-radius: 3px;
+    }
+
+    blockquote {
+        border-left: 1px solid #999;
+        color: var(--blockquote-color);
+        padding-left: 20px;
+        font-style: italic;
+    }
+
+    footer {
+        padding: 25px 0;
+        text-align: center;
+    }
+
+    .title:hover {
+        text-decoration: none;
+    }
+
+    .title h1 {
+        font-size: 1.5em;
+    }
+
+    .inline {
+        width: auto !important;
+    }
+
+    .highlight,
+    .code {
+        border-radius: 3px;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        overflow-x: auto;
+    }
+
+    .highlight pre,
+    .code pre {
+        min-width: 100%;
+        width: max-content;
+    }
+
+     
+    ul.blog-posts {
+        list-style-type: none;
+        padding: unset;
+    }
+
+    ul.blog-posts li {
+        display: flex;
+    }
+
+    ul.blog-posts li span {
+        flex: 0 0 130px;
+    }
+
+    ul.blog-posts li a:visited {
+        color: var(--visited-color);
+    }
+
+    details {
+        margin: 1rem 0;
+    }
+
+    details summary {
+        cursor: pointer;
+        color: var(--link-color);
+        font-weight: 500;
+        user-select: none;
+    }
+
+    details summary:hover {
+        text-decoration: underline;
+    }
+
+    details[open] summary {
+        margin-bottom: 1rem;
+    }
+</style>
+
+<script defer src="https://cloud.umami.is/script.js" data-website-id="549eb798-ce83-4bb7-9e93-41b01da2d7b1"></script>
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>nezutero</h2>
+</a>
+<nav>
+<a href="/">home</a>
+
+<a href="/about/">whoami</a>
+
+<a href="/blog/">blog</a>
+
+<a href="/library/">library</a>
+
+<a href="/uses/">uses</a>
+
+<a href="/support/">support</a>
+
+</nav>
+</header>
+  <main>
+
+<h1>Almost Went Back: One Month on NixOS</h1>
+<p>
+  <i>
+    <time datetime='2026-07-21'>
+      21 Jul, 2026
+    </time>
+  </i>
+</p>
+
+<content>
+  <p><em>This is Part 2 of my Linux Odyssey series. <a href="https://nezutero.dev/my-linux-odyssey-how-i-ended-up-on-nixos/">Part 1</a> covers my path from Ubuntu through Arch Linux and why I decided to try NixOS in the first place. If you haven&rsquo;t read it, start there.</em></p>
+<hr>
+<h2 id="the-breaking-point">The Breaking Point</h2>
+<p>About a week after I published my first post, I had a crisis of confidence.</p>
+<p>I had been using NixOS for roughly four weeks at that point, and I was deep in it: learning about flakes, home-manager, the differences between various configuration approaches, the philosophy behind the whole project. I had hit several footguns, sat through long debugging sessions, and felt the weight of having an infinite number of ways to do any given thing. Instead of feeling like I was mastering something, I felt overwhelmed.</p>
+<p>I had a prepared Arch Linux ISO on a flash drive. I was seriously considering going back.</p>
+<hr>
+<h2 id="what-i-was-missing-kind-of">What I Was Missing (Kind Of)</h2>
+<p>The main thing pulling me back was not the complexity itself. Complexity I can deal with; I went through something similar when I first switched to Arch. It was something more subtle.</p>
+<p>I missed the way I used to interact with my system.</p>
+<p>On Arch, I had spent years building up a kind of physical intuition about Linux: knowing where configuration files live, understanding what they do, navigating the file system and editing things directly. That knowledge is universal across Unix systems that follow the FHS convention. It feels like real, transferable understanding. On NixOS, the need for most of it simply disappears. You do not go to <code>/etc/resolv.conf</code> to set your DNS; you declare it in a Nix file and NixOS generates the file for you. The abstraction handles it.</p>
+<p>At first I found this liberating. After four weeks, I found it unsettling. I started to wonder whether I was actually learning Linux anymore, or just learning Nix. The two felt like different things, and I was not sure the latter was worth trading the former for.</p>
+<p>I also worried that NixOS would limit my growth and understanding of the underlying system. On Arch, you had to do everything yourself, which meant learning where things are and why they are there. In NixOS, you learn how to interact with the system through the Nix abstraction, which distances you from the classical interaction model. I felt that distance after four weeks. I could do anything I wanted, but it felt less real somehow.</p>
+<p>There is a genuine question lurking here. Does abstracting away from the system prevent you from understanding it? One argument against abstraction is exactly that: it hides the thing it controls, and the knowledge you would have built by interacting with it directly never gets built. On the other hand, that same knowledge becomes partly irrelevant every few years as conventions shift. Does memorizing config file locations and doing things imperatively actually deepen understanding, or is it just familiarity with a particular set of conventions that will eventually change anyway, making the acquired knowledge irrelevant?</p>
+<p>I cannot deny that the imperative model I used to deal with is responsible for building intuition and understanding about why things work the way they do, how they interact, and how and why they are related to each other.</p>
+<p>And yet the question arises: do I need to know everything and manually track so many things, including small, relatively unimportant ones? It is useful in some ways, yet useless in others. There are things I do not want to spend my time on; I just want them to work. At the same time, I want to understand how and why they work. I do not want to live in ignorance of my precious tool, especially if I want to master it.</p>
+<p>I did not have a clean answer. What I had was doubt, a flash drive, and the NixOS Discord server.</p>
+<hr>
+<h2 id="the-community">The Community</h2>
+<p>Rather than just switching back, I decided to post in the NixOS Discord server and hear what experienced users thought. I wrote out where I was:</p>
+<blockquote>
+<p>Hello, I&rsquo;ve been using nix for 3 weeks, switched from arch which i had been using for 3.5 years.</p>
+<p>Tbh, these 3 weeks have been amazing so far: learned a lot of stuff, which is nothing yet, but feels great anyway. After using a completely different approach to defining my system, i&rsquo;ve been both amazed and sad.</p>
+<p>I feel sad because although the nix approach is cool, functional, atomic, defined state, do it one time and it works forever (ideally, if nothing changes in NixOS), yet this led me to less interaction with the system, almost at all, and just &ldquo;controlling&rdquo; it via nix files, and while definiteness and declarativeness is THE way imho; after discovering the nix way, the imperative approach seems as stupid as writing commands one by one instead of creating a reusable .sh file.</p>
+<p>I just cannot see myself forgetting the stuff I have done and losing it, or fixing an issue and after reinstalling the system for whatever reason, and refixing the same thing again after forgetting it was there at all.</p>
+<p>I&rsquo;ve been thinking about moving back to arch recently, I miss the way I used to explore different things about the system, interacting and changing everything I can think of, and learning/understanding FHS and stuff. I mean after years of using arch I memorised locations of different configs and files and what they do, as well as built some kind of intuition, which is almost always useless on NixOS.</p>
+<p>At the same time, I&rsquo;m a big fan of NixOS and functional correctness. Also, compatibility issues caused by not having FHS&hellip; lsp servers in particular, damn it&hellip;&hellip;.</p>
+<p>Anyway, I&rsquo;m confused and idk what to do now, I&rsquo;ve read a lot of stuff about this &ldquo;dilemma&rdquo;, I mean should I switch to a distro with FHS (back to arch) or not.</p>
+<p>Looking for personal opinions from people who had a similar journey as mine.</p>
+<p>Just for info, I use hyprland, pretty much everything is used via terminal, configured and customised, I like control and knowing what and why is in my system.</p>
+</blockquote>
+<p>I received a response from <a href="https://github.com/mightyiam">mightyiam</a>, author of the Full Time Nix podcast and a very active member of the Nix community.</p>
+<p>I explained the LSP issue I had run into with clangd and Neovim due to the lack of FHS, which had taken hours to even begin to understand. I admitted that I had gone in with idealistic expectations and that the reality check was something I genuinely appreciated. And I asked him four questions:</p>
+<ol>
+<li>How long he had been using NixOS</li>
+<li>How he had discovered it</li>
+<li>Why he had switched from classic distros</li>
+<li>Why he kept choosing it over something like Arch</li>
+</ol>
+<p>His answers:</p>
+<blockquote>
+<ol>
+<li>I think it was home-manager before NixOS but it&rsquo;s July 2021: <a href="https://github.com/mightyiam/infra">https://github.com/mightyiam/infra</a></li>
+<li><a href="https://github.com/gomain">https://github.com/gomain</a> told me about it in person</li>
+<li>hrm&hellip; that&rsquo;s a lot. hey, there&rsquo;s this interview of me if you&rsquo;re interested 🤷 <a href="https://youtu.be/0Jij9c9TdWo">https://youtu.be/0Jij9c9TdWo</a></li>
+<li>because I get to keep it, share it across multiple computers, roll back, have finite control over any component, at any depth, contributing is accessible&hellip; cache is helpful&hellip;</li>
+</ol>
+</blockquote>
+<p>Another community member, <a href="https://github.com/EpicEric">EpicEric</a>, also replied:</p>
+<blockquote>
+<p>I&rsquo;m not that experienced but</p>
+<ol>
+<li>Since December 2025</li>
+<li>I&rsquo;d heard about it before, I think I tried to learn it after a post from cafkafk but gave up. After a while I saw some videos from Vimjoyer and tonybtw and decided to give it another go</li>
+<li>I tried it on my laptop first but quickly moved to having it installed on my whole fleet, including my desktop and servers. I was frustrated with how stagnant my usual distros were (Pop!_OS, Fedora), and how often stuff like Arch would break</li>
+<li>NixOS adds its own set of challenges which are undeniably cumbersome, but I like the ease of upgrades and fresh updates, as well as a single git-tracked config for everything. I also like the fact that nixpkgs is open-source and easily inspectable, it lets me be more in control of my system</li>
+</ol>
+</blockquote>
+<p>Reading those responses, something clicked. Point four from mightyiam and point three from EpicEric in particular: &ldquo;I get to keep it&rdquo; and &ldquo;I was frustrated with how often stuff like Arch would break.&rdquo; That is exactly what I had been frustrated about losing with Arch, and exactly what NixOS gives you. The argument for staying was already sitting inside the argument I had been making for leaving.</p>
+<p>I put the flash drive in a drawer.</p>
+<hr>
+<h2 id="your-linux-knowledge-actually-does-apply">Your Linux Knowledge Actually Does Apply</h2>
+<p>One thing I kept reading before switching to NixOS was that your existing Linux knowledge basically does not carry over. You start from scratch, as a complete beginner, in a completely different paradigm.</p>
+<p>After a month of using it, I think this is only partly true, and the part that is false matters a lot.</p>
+<p>Yes, the interaction model is different. Yes, the mental model is different. And yes, you will feel like a beginner at first, because in many ways you are. But the underlying knowledge, what options mean, how services work, what a given configuration actually controls, transfers almost completely. When I search for a NixOS option for something I used to configure imperatively, I usually recognize what it does immediately, because I configured it before. The difference is in syntax and paradigm, not in substance.</p>
+<p>What I had been calling &ldquo;Linux knowledge&rdquo; was actually two different things bundled together: understanding of how systems work, and familiarity with where things live on a particular filesystem. The first transfers perfectly to NixOS. The second becomes largely irrelevant, and whilst that felt like a loss at first, I now think it is fine. Knowing that configuration files live under <code>/etc</code> is useful context, but it is not deep understanding. Deep understanding is knowing what the configuration does and why, and that knowledge is entirely portable.</p>
+<p>If anything, having a solid Arch background makes NixOS easier to learn, not harder. You already have the mental model of what you are trying to build; you just have to learn a new way to express it. The paradigm is new. The substance is not.</p>
+<hr>
+<h2 id="going-all-in-and-learning-why-not-to">Going All-In (and Learning Why Not To)</h2>
+<p>Having decided to stay, I committed fully. I wanted to do everything the Nix way: every application configured through Nix modules, everything modular, fully declarative top to bottom. I ended up with a config structure that looked like this:</p>
+<pre tabindex="0"><code>.
 ├── flake.lock
 ├── flake.nix
 ├── hosts
@@ -59,13 +415,37 @@ I had been using NixOS for roughly four weeks at that point, and I was deep in i
         ├── packages.nix
         ├── services.nix
         └── system.nix
-</code></pre><p>It got exhausting quickly. Some applications have excellent Nix support; configuring Neovim with NVF and Hyprland through its dedicated Nix modules was genuinely pleasant. But plenty of tools do not, and for those you end up generating configuration files by embedding them as raw strings inside your Nix config. It works, but it is messy, and it adds a layer of metaconfiguration that solves no real problem. You are not gaining anything over just writing the config file directly; you are just making it harder to read and maintain.</p><p>I quickly realized I had created a new kind of complexity that I had not intended. A new layer of abstraction over the abstraction.</p><p>I took this to the Discord server too:</p><blockquote><p>Hello, I&rsquo;m curious how do you handle your nix configs, I mean do you do everything the &ldquo;nix&rdquo; way or not.</p><p>I&rsquo;ve tried modularizing my nix config and doing everything the nix way &ndash; it felt exhausting; it became too complex and ugly: some apps don&rsquo;t support the nix way of doing things, thus I had to generate files from strings in nix configs, which felt ugly and messy, that&rsquo;s why I came back to my starter simple, not modular nix config, just a few files, home-manager, and flakes.</p><p>In those few files I have everything system-related that makes sense to do via the nix way, and I use home-manager to configure other stuff that makes sense to do the nix way.</p><p>For other stuff, like nvim, hyprland, waybar, dunst, and other relatively big configs I use the native format and just create symlinks via home-manager.</p><p>From my experience I found this way to be the simplest one, the most pleasant to deal with, thus the best one.</p></blockquote><p>A response from community member [Adk]:</p><blockquote><p>That&rsquo;s exactly how I do it, and I also find it to be the best way to handle things. There is no point in falling for the meme of &ldquo;everything must be nix&rdquo;</p></blockquote><p>And from <a href=https://github.com/chocoblocko9>Choko</a>:</p><blockquote><p>I don&rsquo;t think you should confuse &ldquo;writing it in nix&rdquo; and &ldquo;doing it the nix way&rdquo;.
+</code></pre><p>It got exhausting quickly. Some applications have excellent Nix support; configuring Neovim with NVF and Hyprland through its dedicated Nix modules was genuinely pleasant. But plenty of tools do not, and for those you end up generating configuration files by embedding them as raw strings inside your Nix config. It works, but it is messy, and it adds a layer of metaconfiguration that solves no real problem. You are not gaining anything over just writing the config file directly; you are just making it harder to read and maintain.</p>
+<p>I quickly realized I had created a new kind of complexity that I had not intended. A new layer of abstraction over the abstraction.</p>
+<p>I took this to the Discord server too:</p>
+<blockquote>
+<p>Hello, I&rsquo;m curious how do you handle your nix configs, I mean do you do everything the &ldquo;nix&rdquo; way or not.</p>
+<p>I&rsquo;ve tried modularizing my nix config and doing everything the nix way &ndash; it felt exhausting; it became too complex and ugly: some apps don&rsquo;t support the nix way of doing things, thus I had to generate files from strings in nix configs, which felt ugly and messy, that&rsquo;s why I came back to my starter simple, not modular nix config, just a few files, home-manager, and flakes.</p>
+<p>In those few files I have everything system-related that makes sense to do via the nix way, and I use home-manager to configure other stuff that makes sense to do the nix way.</p>
+<p>For other stuff, like nvim, hyprland, waybar, dunst, and other relatively big configs I use the native format and just create symlinks via home-manager.</p>
+<p>From my experience I found this way to be the simplest one, the most pleasant to deal with, thus the best one.</p>
+</blockquote>
+<p>A response from community member [Adk]:</p>
+<blockquote>
+<p>That&rsquo;s exactly how I do it, and I also find it to be the best way to handle things. There is no point in falling for the meme of &ldquo;everything must be nix&rdquo;</p>
+</blockquote>
+<p>And from <a href="https://github.com/chocoblocko9">Choko</a>:</p>
+<blockquote>
+<p>I don&rsquo;t think you should confuse &ldquo;writing it in nix&rdquo; and &ldquo;doing it the nix way&rdquo;.
 Who said symlinking a file isn&rsquo;t the nix way?
 home-manager isn&rsquo;t part of nixos you know.
 By and large nixos doesn&rsquo;t deal with home management at all.
 Basically I&rsquo;m trying to say symlinking stuff is perfectly fine.
 I use it for some stuff, don&rsquo;t use it for others.
-You&rsquo;ve already figured out where it&rsquo;s useful and where it&rsquo;s not.</p></blockquote><p>And it turned out that after discussing it with multiple people in the community, most of them had arrived at the same conclusion through their own experience. It is not just me.</p><p>Also, I had been confusing &ldquo;doing everything the Nix way&rdquo; with &ldquo;writing everything in Nix.&rdquo; This is a very common mistake. The urge to write every single config in the Nix language is a natural phase you go through, and most people end up stepping back from it once they run into the complexity, messiness, and maintenance headaches that come with pasting native config formats as raw strings inside <code>.nix</code> files.</p><hr><h2 id=the-approach-that-actually-works>The Approach That Actually Works</h2><p>After all of that, I ended up back at something simple.</p><p>My current single-machine setup looks like this:</p><pre tabindex=0><code>~/nixos
+You&rsquo;ve already figured out where it&rsquo;s useful and where it&rsquo;s not.</p>
+</blockquote>
+<p>And it turned out that after discussing it with multiple people in the community, most of them had arrived at the same conclusion through their own experience. It is not just me.</p>
+<p>Also, I had been confusing &ldquo;doing everything the Nix way&rdquo; with &ldquo;writing everything in Nix.&rdquo; This is a very common mistake. The urge to write every single config in the Nix language is a natural phase you go through, and most people end up stepping back from it once they run into the complexity, messiness, and maintenance headaches that come with pasting native config formats as raw strings inside <code>.nix</code> files.</p>
+<hr>
+<h2 id="the-approach-that-actually-works">The Approach That Actually Works</h2>
+<p>After all of that, I ended up back at something simple.</p>
+<p>My current single-machine setup looks like this:</p>
+<pre tabindex="0"><code>~/nixos
 ├── configuration.nix
 ├── flake.lock
 ├── flake.nix
@@ -87,8 +467,75 @@ You&rsquo;ve already figured out where it&rsquo;s useful and where it&rsquo;s no
 ├── waybar
 ├── yazi
 └── zathura
-</code></pre><p>Everything system-level that Nix handles well, like packages, services, and system configuration, lives in the Nix config. Everything application-level with a substantial native config format, like Neovim, Hyprland, and Waybar, lives in <code>~/dotfiles</code> and home-manager creates symlinks to those files. Clean, simple, and easy to understand at a glance.</p><p>The key insight is that NixOS does not require you to configure everything through Nix. It requires you to define your system through Nix. Those are different things, and conflating them leads to exactly the kind of overengineering I fell into. There is no &ldquo;right&rdquo; way in NixOS. The right way is the one that makes sense for your actual situation.</p><hr><h2 id=a-different-world>A Different World</h2><p>Here is what has genuinely changed after a month.</p><p>The interaction model is different, and I have stopped trying to resist it. On Arch, I interacted with my system constantly: editing files directly, running commands, making incremental changes. It was hands-on in a way that felt satisfying. On NixOS, most of that activity has been replaced by editing a small set of configuration files. At first this felt like losing something. Now it feels like the point.</p><p>The declarative model is simpler, once you learn the language to express what you want. You say what you want once, and it works. You do not debug the same issue twice. You do not lose configurations because you forgot to document them. You do not have to remember anything, because everything is already written down by definition. And the consistency of it, everything in the same format, everything in one place, creates a sense of organization and control that I never had with Arch, despite spending years trying to achieve it.</p><p>I also found that when I want to understand something at a deeper level, nothing stops me. I can look at the generated configuration files. I can read the NixOS module source. The difference is that I am not forced to engage with those layers for every routine task. NixOS gives you the option. That turns out to be far better than Arch&rsquo;s implicit requirement that you engage with everything manually all the time.</p><p>And over time, you build the same kind of intuition on NixOS that you built on classic distros. It just looks different: you start to know which options exist and what they are likely to be called, you develop a sense for where to look when something breaks, and you build mental models of how parts of your configuration interact. The knowledge accumulates. It is just Nix knowledge instead of FHS knowledge, and that is a perfectly fine trade.</p><hr><h2 id=what-i-miss-what-i-dont>What I Miss, What I Don&rsquo;t</h2><p>Honestly, I miss almost nothing.</p><p>I do not miss losing configurations. I do not miss spending 30 minutes restoring my system after a reinstall only to discover things I forgot to document. I do not miss the anxiety of running a big update after weeks of skipping them, wondering what will break. I do not miss fixing the same issue twice because I forgot I had already fixed it once.</p><p>What I miss, a little, is the feeling of raw interaction with the system: going into <code>/etc</code>, editing a file, seeing the change take effect immediately. There is something tactile about that workflow that NixOS does not replicate. But the more I use NixOS, the more I recognize that feeling for what it was: familiarity, not superiority. I was comfortable with the imperative model because I had spent years with it, not because it was actually better.</p><p>On NixOS, I am building a new familiarity. And it is already starting to feel like home.</p><hr><h2 id=is-it-worth-committing-to>Is It Worth Committing To?</h2><p>Yes. Unambiguously.</p><p>It is hard at first, and I still feel like I know very little after almost two months of using NixOS. The learning curve is real. You will hit footguns. You will spend hours on things that should take five minutes. You will question your choices, probably more than once. I had a flash drive with an Arch ISO ready to go, and I came very close to using it. After that moment, I understood why some people do not like NixOS and switch back to Arch or whatever FHS-compatible distro they prefer.</p><p>But the core idea is correct, and once you internalize it, the tool starts to feel genuinely powerful. The problems you encounter are real problems, but they are solvable, and solving them makes you better at using the tool rather than just patching the same recurring issues. The community is excellent, and going to them when you are stuck or uncertain is one of the best things you can do.</p><p>I also cannot stop talking about NixOS at this point. I find myself explaining it to other Linux users, making the case for declarative configuration, and being mildly baffled that the imperative model is still the default. I do not fully understand why it dominates, given how much better the alternative feels once you have lived with it. That is probably a whole other post.</p><p>For now: if you are on the fence, stay. Ask the community. Struggling as a beginner is just part of becoming proficient, and the other side of that curve is worth the effort.</p><hr><p>Here are the resources I found most helpful:</p><p><strong>Learning</strong></p><ul><li><a href=https://www.youtube.com/@vimjoyer>Vimjoyer&rsquo;s YouTube channel</a></li><li><a href=https://discord.gg/pJXzBqjzBx>NixOS Discord server</a> (unofficial, but the largest one)</li><li><a href=https://nixos.org/guides/nix-pills/>Nix Pills</a></li><li><a href=https://ops.functionalalgebra.com/nix-by-example>Nix by Example</a></li><li><a href=https://zero-to-nix.com>Zero to Nix</a> (a guide to learning Nix and flakes)</li><li>Other YouTube videos and blog posts</li><li>LLMs work surprisingly well as a search engine for Nix too</li></ul><p><strong>Day-to-day essentials</strong></p><ul><li><a href=https://nixos.org/manual/nixos/stable/>Official docs</a></li><li><a href=https://search.nixos.org>Package search</a></li><li><a href=https://home-manager-options.extranix.com/>home-manager options search</a></li><li><a href=https://nixos.org>nixos.org</a></li></ul><p><strong>Example configs to learn from</strong></p><ul><li><a href=https://github.com/Misterio77/nix-starter-configs>nix-starter-configs</a></li><li><a href=https://nixos.wiki/wiki/Configuration_Collection>More examples on the NixOS wiki</a></li></ul></content><p><a href=http://nezutero.dev/blog/nixos/>#NixOS</a>
-<a href=http://nezutero.dev/blog/linux/>#Linux</a></p></main><footer><footer><a href=https://codeberg.org/nezutero>codeberg</a> /
-<a rel=me href=https://fosstodon.org/@nezutero>mstdn</a> /
-<a href=mailto:me@nezutero.dev>email</a> /
-<a href=blog/index.xml>rss</a></footer></footer></body></html>
+</code></pre><p>Everything system-level that Nix handles well, like packages, services, and system configuration, lives in the Nix config. Everything application-level with a substantial native config format, like Neovim, Hyprland, and Waybar, lives in <code>~/dotfiles</code> and home-manager creates symlinks to those files. Clean, simple, and easy to understand at a glance.</p>
+<p>The key insight is that NixOS does not require you to configure everything through Nix. It requires you to define your system through Nix. Those are different things, and conflating them leads to exactly the kind of overengineering I fell into. There is no &ldquo;right&rdquo; way in NixOS. The right way is the one that makes sense for your actual situation.</p>
+<hr>
+<h2 id="a-different-world">A Different World</h2>
+<p>Here is what has genuinely changed after a month.</p>
+<p>The interaction model is different, and I have stopped trying to resist it. On Arch, I interacted with my system constantly: editing files directly, running commands, making incremental changes. It was hands-on in a way that felt satisfying. On NixOS, most of that activity has been replaced by editing a small set of configuration files. At first this felt like losing something. Now it feels like the point.</p>
+<p>The declarative model is simpler, once you learn the language to express what you want. You say what you want once, and it works. You do not debug the same issue twice. You do not lose configurations because you forgot to document them. You do not have to remember anything, because everything is already written down by definition. And the consistency of it, everything in the same format, everything in one place, creates a sense of organization and control that I never had with Arch, despite spending years trying to achieve it.</p>
+<p>I also found that when I want to understand something at a deeper level, nothing stops me. I can look at the generated configuration files. I can read the NixOS module source. The difference is that I am not forced to engage with those layers for every routine task. NixOS gives you the option. That turns out to be far better than Arch&rsquo;s implicit requirement that you engage with everything manually all the time.</p>
+<p>And over time, you build the same kind of intuition on NixOS that you built on classic distros. It just looks different: you start to know which options exist and what they are likely to be called, you develop a sense for where to look when something breaks, and you build mental models of how parts of your configuration interact. The knowledge accumulates. It is just Nix knowledge instead of FHS knowledge, and that is a perfectly fine trade.</p>
+<hr>
+<h2 id="what-i-miss-what-i-dont">What I Miss, What I Don&rsquo;t</h2>
+<p>Honestly, I miss almost nothing.</p>
+<p>I do not miss losing configurations. I do not miss spending 30 minutes restoring my system after a reinstall only to discover things I forgot to document. I do not miss the anxiety of running a big update after weeks of skipping them, wondering what will break. I do not miss fixing the same issue twice because I forgot I had already fixed it once.</p>
+<p>What I miss, a little, is the feeling of raw interaction with the system: going into <code>/etc</code>, editing a file, seeing the change take effect immediately. There is something tactile about that workflow that NixOS does not replicate. But the more I use NixOS, the more I recognize that feeling for what it was: familiarity, not superiority. I was comfortable with the imperative model because I had spent years with it, not because it was actually better.</p>
+<p>On NixOS, I am building a new familiarity. And it is already starting to feel like home.</p>
+<hr>
+<h2 id="is-it-worth-committing-to">Is It Worth Committing To?</h2>
+<p>Yes. Unambiguously.</p>
+<p>It is hard at first, and I still feel like I know very little after almost two months of using NixOS. The learning curve is real. You will hit footguns. You will spend hours on things that should take five minutes. You will question your choices, probably more than once. I had a flash drive with an Arch ISO ready to go, and I came very close to using it. After that moment, I understood why some people do not like NixOS and switch back to Arch or whatever FHS-compatible distro they prefer.</p>
+<p>But the core idea is correct, and once you internalize it, the tool starts to feel genuinely powerful. The problems you encounter are real problems, but they are solvable, and solving them makes you better at using the tool rather than just patching the same recurring issues. The community is excellent, and going to them when you are stuck or uncertain is one of the best things you can do.</p>
+<p>I also cannot stop talking about NixOS at this point. I find myself explaining it to other Linux users, making the case for declarative configuration, and being mildly baffled that the imperative model is still the default. I do not fully understand why it dominates, given how much better the alternative feels once you have lived with it. That is probably a whole other post.</p>
+<p>For now: if you are on the fence, stay. Ask the community. Struggling as a beginner is just part of becoming proficient, and the other side of that curve is worth the effort.</p>
+<hr>
+<p>Here are the resources I found most helpful:</p>
+<p><strong>Learning</strong></p>
+<ul>
+<li><a href="https://www.youtube.com/@vimjoyer">Vimjoyer&rsquo;s YouTube channel</a></li>
+<li><a href="https://discord.gg/pJXzBqjzBx">NixOS Discord server</a> (unofficial, but the largest one)</li>
+<li><a href="https://nixos.org/guides/nix-pills/">Nix Pills</a></li>
+<li><a href="https://ops.functionalalgebra.com/nix-by-example">Nix by Example</a></li>
+<li><a href="https://zero-to-nix.com">Zero to Nix</a> (a guide to learning Nix and flakes)</li>
+<li>Other YouTube videos and blog posts</li>
+<li>LLMs work surprisingly well as a search engine for Nix too</li>
+</ul>
+<p><strong>Day-to-day essentials</strong></p>
+<ul>
+<li><a href="https://nixos.org/manual/nixos/stable/">Official docs</a></li>
+<li><a href="https://search.nixos.org">Package search</a></li>
+<li><a href="https://home-manager-options.extranix.com/">home-manager options search</a></li>
+<li><a href="https://nixos.org">nixos.org</a></li>
+</ul>
+<p><strong>Example configs to learn from</strong></p>
+<ul>
+<li><a href="https://github.com/Misterio77/nix-starter-configs">nix-starter-configs</a></li>
+<li><a href="https://nixos.wiki/wiki/Configuration_Collection">More examples on the NixOS wiki</a></li>
+</ul>
+
+</content>
+
+
+
+<p>
+  
+  <a href="http://localhost:3000/blog/nixos/">#NixOS</a>
+  
+  <a href="http://localhost:3000/blog/linux/">#Linux</a>
+  
+</p>
+
+
+  </main>
+  <footer><footer>
+    <a href="https://codeberg.org/nezutero">codeberg</a> /
+    <a href="mailto:me@nezutero.dev">email</a> /
+    <a href="blog/index.xml">rss</a>
+</footer>
+</footer>
+
+  
+</body>
+
+</html>
