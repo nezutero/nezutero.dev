@@ -1,82 +1,58 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>home on nezutero</title>
-		<link>http://localhost:3000/</link>
-		<description>Recent content in home on nezutero</description>
-		<generator>Hugo</generator>
-		<language>en-US</language>
-		
-		
-		
-			<copyright>Copyright © 2026, nezutero</copyright>
-		
-		
-			<lastBuildDate>Sun, 26 Jul 2026 00:00:00 +0000</lastBuildDate>
-		
-			<atom:link href="http://localhost:3000/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>whoami</title>
-				<link>http://localhost:3000/about/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:3000/about/</guid>
-				<description>&lt;h2 id=&#34;who-i-am&#34;&gt;Who I Am&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;m Dimitri Nesterenko, a computer science student originally from Ukraine, now living in Rennes, France. I see my craft as a form of creative problem-solving, something I want to master &amp;ndash; building meaningful solutions that help others. I don&amp;rsquo;t believe in limiting myself to a single label. Software engineering is a passion and a craft I&amp;rsquo;m constantly learning, but it&amp;rsquo;s one facet of who I am, not the whole picture.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>library</title>
-				<link>http://localhost:3000/library/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:3000/library/</guid>
-				<description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.goodreads.com/book/show/55723020-dopamine-nation?ref=rae_2&#34;&gt;Dopamine Nation&lt;/a&gt;&lt;/strong&gt; by Anna Lembke&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.goodreads.com/book/show/38728977-the-molecule-of-more&#34;&gt;The Molecule of More&lt;/a&gt;&lt;/strong&gt; by Daniel Z. Lieberman &amp;amp; Michael E. Long&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.goodreads.com/book/show/43306206-the-courage-to-be-disliked&#34;&gt;The Courage to Be Disliked&lt;/a&gt;&lt;/strong&gt; by Ichiro Kishimi &amp;amp; Fumitake Koga&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://www.goodreads.com/book/show/30231806-goodbye-things&#34;&gt;Goodbye, Things&lt;/a&gt;&lt;/strong&gt; by Fumio Sasaki&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-			</item>
-			<item>
-				<title>uses</title>
-				<link>http://localhost:3000/uses/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:3000/uses/</guid>
-				<description>&lt;p&gt;A running list of the hardware and software I use day to day. Inspired by &lt;a href=&#34;https://uses.tech&#34;&gt;uses.tech&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;My &lt;a href=&#34;https://codeberg.org/nezutero/dotfiles&#34;&gt;dotfiles&lt;/a&gt;, &lt;a href=&#34;https://codeberg.org/nezutero/nixos&#34;&gt;NixOS&lt;/a&gt; and &lt;a href=&#34;https://codeberg.org/nezutero/dotfiles/src/branch/main/nvim&#34;&gt;nvim config&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;hardware&#34;&gt;Hardware&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Laptop&lt;/strong&gt;: Lenovo ThinkPad X1 Carbon (7th Gen)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Phone&lt;/strong&gt;: Google Pixel 8 running GrapheneOS&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;software&#34;&gt;Software&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;OS&lt;/strong&gt;: &lt;a href=&#34;https://nixos.org/&#34;&gt;NixOS&lt;/a&gt; (Switched from Arch btw)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;WM&lt;/strong&gt;: &lt;a href=&#34;https://hyprland.org/&#34;&gt;Hyprland&lt;/a&gt; (Wayland)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Term&lt;/strong&gt;: &lt;a href=&#34;https://codeberg.org/dnkl/foot&#34;&gt;foot&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Term multiplexer&lt;/strong&gt;: &lt;a href=&#34;https://github.com/tmux/tmux&#34;&gt;tmux&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Shell&lt;/strong&gt;: &lt;a href=&#34;https://www.zsh.org/&#34;&gt;zsh&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Editor&lt;/strong&gt;: &lt;a href=&#34;https://neovim.io/&#34;&gt;Neovim&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Colors&lt;/strong&gt;: &lt;a href=&#34;https://github.com/Fausto-Korpsvart/Kanagawa-GKT-Theme&#34;&gt;Kanagawa Dragon&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Launcher&lt;/strong&gt;: &lt;a href=&#34;https://github.com/davatorium/rofi&#34;&gt;rofi&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Password manager&lt;/strong&gt;: &lt;a href=&#34;https://www.passwordstore.org/&#34;&gt;gnu pass&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Notification daemon&lt;/strong&gt;: &lt;a href=&#34;https://github.com/dunst-project/dunst&#34;&gt;dunst&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Greeter&lt;/strong&gt;: &lt;a href=&#34;https://github.com/apognu/tuigreet&#34;&gt;tuigreet&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;File manager&lt;/strong&gt;: &lt;a href=&#34;https://github.com/sxyazi/yazi&#34;&gt;yazi&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Video player&lt;/strong&gt;: &lt;a href=&#34;https://mpv.io/&#34;&gt;mpv&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Music player&lt;/strong&gt;: &lt;a href=&#34;https://github.com/mierak/rmpc&#34;&gt;rmpc&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Document reader&lt;/strong&gt;: &lt;a href=&#34;https://github.com/pwmt/zathura&#34;&gt;zathura&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;System info&lt;/strong&gt;: &lt;a href=&#34;https://github.com/fastfetch-cli/fastfetch&#34;&gt;fastfetch&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Browser&lt;/strong&gt;: &lt;a href=&#34;https://zen-browser.app/&#34;&gt;Zen&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-			</item>
-			<item>
-				<title>support</title>
-				<link>http://localhost:3000/support/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:3000/support/</guid>
-				<description>&lt;hr&gt;&#xA;&lt;p&gt;I like sharing things I&amp;rsquo;ve learned in the form of writing on my website, as well as creating stuff that will be useful to others. I thought it would be better to have an option via which I can be supported, just in case the things I do have helped someone.&lt;/p&gt;&#xA;&lt;p&gt;If something here has been useful to you, you&amp;rsquo;re welcome to support the work through any of the options below.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Goodbye Microslop: Finally Moved to Codeberg</title>
-				<link>http://localhost:3000/goodbye-microslop-finally-moved-to-codeberg/</link>
-				<pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:3000/goodbye-microslop-finally-moved-to-codeberg/</guid>
-				<description>&lt;p&gt;A while ago I realized I was after something important to my soul. I had internal conflicts because even though I was kind of living according to my values in terms of being thoughtful about the software I use, I don&amp;rsquo;t want to use products of evil corporations such as Microslop &amp;ndash; that goes against the things I want to nurture in myself, thus in others, and consequently in this industry, as a professional (when I become one) and in all humanity.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Almost Went Back: One Month on NixOS</title>
-				<link>http://localhost:3000/almost-went-back-one-month-on-nixos/</link>
-				<pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:3000/almost-went-back-one-month-on-nixos/</guid>
-				<description>&lt;p&gt;&lt;em&gt;This is Part 2 of my Linux Odyssey series. &lt;a href=&#34;https://nezutero.dev/my-linux-odyssey-how-i-ended-up-on-nixos/&#34;&gt;Part 1&lt;/a&gt; covers my path from Ubuntu through Arch Linux and why I decided to try NixOS in the first place. If you haven&amp;rsquo;t read it, start there.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;the-breaking-point&#34;&gt;The Breaking Point&lt;/h2&gt;&#xA;&lt;p&gt;About a week after I published my first post, I had a crisis of confidence.&lt;/p&gt;&#xA;&lt;p&gt;I had been using NixOS for roughly four weeks at that point, and I was deep in it: learning about flakes, home-manager, the differences between various configuration approaches, the philosophy behind the whole project. I had hit several footguns, sat through long debugging sessions, and felt the weight of having an infinite number of ways to do any given thing. Instead of feeling like I was mastering something, I felt overwhelmed.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>LLM Statement</title>
-				<link>http://localhost:3000/llm-statement/</link>
-				<pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:3000/llm-statement/</guid>
-				<description>&lt;p&gt;The following statement was originally written by &lt;a href=&#34;https://gracefulliberty.com/llms/&#34;&gt;Anna Liberty&lt;/a&gt;.&#xA;It deeply resonates with who I am and who I want to be. I&amp;rsquo;m grateful I can use it to express my&#xA;values.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;I do not use LLMs or other &amp;ldquo;Generative AI&amp;rdquo; for prose or code, nor do I accept it from others as open source contributions.&lt;/p&gt;&#xA;&lt;p&gt;I do not discuss my prose or code with LLMs.&lt;/p&gt;&#xA;&lt;p&gt;I do not consult LLMs for projects, contributions, assignments, research, or anything else.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>My Linux Odyssey: How I Ended Up on NixOS</title>
-				<link>http://localhost:3000/my-linux-odyssey-how-i-ended-up-on-nixos/</link>
-				<pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:3000/my-linux-odyssey-how-i-ended-up-on-nixos/</guid>
-				<description>&lt;p&gt;&lt;em&gt;Last updated: 21 July 2026&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;A personal account of distro-hopping, window managers, and eventually finding NixOS.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;part-1-how-it-all-started&#34;&gt;Part 1: How It All Started&lt;/h2&gt;&#xA;&lt;p&gt;I started using Linux about four years ago. My very first distribution was Fedora, followed by Ubuntu, which I used for about a month before switching back. The main reason I left Ubuntu was its interface; I simply didn&amp;rsquo;t like it. But beneath that was a deeper frustration: bloat. Ubuntu came pre-installed with so much software that, as someone still finding their footing in Linux, I felt completely lost. I tried removing things, but the sheer volume of it all was overwhelming.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Why I Don&#39;t Trust Telegram</title>
-				<link>http://localhost:3000/why-i-dont-trust-telegram/</link>
-				<pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:3000/why-i-dont-trust-telegram/</guid>
-				<description>&lt;h2 id=&#34;privacy&#34;&gt;Privacy&lt;/h2&gt;&#xA;&lt;p&gt;My Telegram aversion started because of privacy concerns triggered by rumors and verified facts &amp;ndash; like data being shared with governments while Telegram pretends to be the most secure and private messenger that will under no circumstances share anything with anyone. A messenger that claims to champion human rights and free speech, while simultaneously blocking opposition channels to satisfy the requests of corrupt officials who are in power and afraid of losing it.&lt;/p&gt;</description>
-			</item>
-	</channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>home on nezutero</title><link>http://nezutero.dev/</link><description>Recent content in home on nezutero</description><generator>Hugo</generator><language>en-US</language><copyright>Copyright © 2026, nezutero</copyright><lastBuildDate>Sun, 26 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://nezutero.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>whoami</title><link>http://nezutero.dev/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://nezutero.dev/about/</guid><description>&lt;h2 id="who-i-am"&gt;Who I Am&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;m Dimitri Nesterenko, a computer science student originally from Ukraine, now living in Rennes, France. I see my craft as a form of creative problem-solving, something I want to master &amp;ndash; building meaningful solutions that help others. I don&amp;rsquo;t believe in limiting myself to a single label. Software engineering is a passion and a craft I&amp;rsquo;m constantly learning, but it&amp;rsquo;s one facet of who I am, not the whole picture.&lt;/p&gt;</description></item><item><title>library</title><link>http://nezutero.dev/library/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://nezutero.dev/library/</guid><description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.goodreads.com/book/show/55723020-dopamine-nation?ref=rae_2"&gt;Dopamine Nation&lt;/a&gt;&lt;/strong&gt; by Anna Lembke&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.goodreads.com/book/show/38728977-the-molecule-of-more"&gt;The Molecule of More&lt;/a&gt;&lt;/strong&gt; by Daniel Z. Lieberman &amp;amp; Michael E. Long&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.goodreads.com/book/show/43306206-the-courage-to-be-disliked"&gt;The Courage to Be Disliked&lt;/a&gt;&lt;/strong&gt; by Ichiro Kishimi &amp;amp; Fumitake Koga&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://www.goodreads.com/book/show/30231806-goodbye-things"&gt;Goodbye, Things&lt;/a&gt;&lt;/strong&gt; by Fumio Sasaki&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>uses</title><link>http://nezutero.dev/uses/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://nezutero.dev/uses/</guid><description>&lt;p&gt;A running list of the hardware and software I use day to day. Inspired by &lt;a href="https://uses.tech"&gt;uses.tech&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;My &lt;a href="https://codeberg.org/nezutero/dotfiles"&gt;dotfiles&lt;/a&gt;, &lt;a href="https://codeberg.org/nezutero/nixos"&gt;NixOS&lt;/a&gt; and &lt;a href="https://codeberg.org/nezutero/dotfiles/src/branch/main/nvim"&gt;nvim config&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="hardware"&gt;Hardware&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Laptop&lt;/strong&gt;: Lenovo ThinkPad X1 Carbon (7th Gen)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Phone&lt;/strong&gt;: Google Pixel 8 running GrapheneOS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="software"&gt;Software&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;OS&lt;/strong&gt;: &lt;a href="https://nixos.org/"&gt;NixOS&lt;/a&gt; (Switched from Arch btw)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;WM&lt;/strong&gt;: &lt;a href="https://hyprland.org/"&gt;Hyprland&lt;/a&gt; (Wayland)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Term&lt;/strong&gt;: &lt;a href="https://codeberg.org/dnkl/foot"&gt;foot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Term multiplexer&lt;/strong&gt;: &lt;a href="https://github.com/tmux/tmux"&gt;tmux&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Shell&lt;/strong&gt;: &lt;a href="https://www.zsh.org/"&gt;zsh&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Editor&lt;/strong&gt;: &lt;a href="https://neovim.io/"&gt;Neovim&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Colors&lt;/strong&gt;: &lt;a href="https://github.com/Fausto-Korpsvart/Kanagawa-GKT-Theme"&gt;Kanagawa Dragon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Launcher&lt;/strong&gt;: &lt;a href="https://github.com/davatorium/rofi"&gt;rofi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Password manager&lt;/strong&gt;: &lt;a href="https://www.passwordstore.org/"&gt;gnu pass&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Notification daemon&lt;/strong&gt;: &lt;a href="https://github.com/dunst-project/dunst"&gt;dunst&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Greeter&lt;/strong&gt;: &lt;a href="https://github.com/apognu/tuigreet"&gt;tuigreet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;File manager&lt;/strong&gt;: &lt;a href="https://github.com/sxyazi/yazi"&gt;yazi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Video player&lt;/strong&gt;: &lt;a href="https://mpv.io/"&gt;mpv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Music player&lt;/strong&gt;: &lt;a href="https://github.com/mierak/rmpc"&gt;rmpc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Document reader&lt;/strong&gt;: &lt;a href="https://github.com/pwmt/zathura"&gt;zathura&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;System info&lt;/strong&gt;: &lt;a href="https://github.com/fastfetch-cli/fastfetch"&gt;fastfetch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Browser&lt;/strong&gt;: &lt;a href="https://zen-browser.app/"&gt;Zen&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>support</title><link>http://nezutero.dev/support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://nezutero.dev/support/</guid><description>&lt;hr&gt;
+&lt;p&gt;I like sharing things I&amp;rsquo;ve learned in the form of writing on my website, as well as creating stuff that will be useful to others. I thought it would be better to have an option via which I can be supported, just in case the things I do have helped someone.&lt;/p&gt;
+&lt;p&gt;If something here has been useful to you, you&amp;rsquo;re welcome to support the work through any of the options below.&lt;/p&gt;</description></item><item><title>Goodbye Microslop: Finally Moved to Codeberg</title><link>http://nezutero.dev/goodbye-microslop-finally-moved-to-codeberg/</link><pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate><guid>http://nezutero.dev/goodbye-microslop-finally-moved-to-codeberg/</guid><description>&lt;p&gt;A while ago I realized I was after something important to my soul. I had internal conflicts because even though I was kind of living according to my values in terms of being thoughtful about the software I use, I don&amp;rsquo;t want to use products of evil corporations such as Microslop &amp;ndash; that goes against the things I want to nurture in myself, thus in others, and consequently in this industry, as a professional (when I become one) and in all humanity.&lt;/p&gt;</description></item><item><title>Almost Went Back: One Month on NixOS</title><link>http://nezutero.dev/almost-went-back-one-month-on-nixos/</link><pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate><guid>http://nezutero.dev/almost-went-back-one-month-on-nixos/</guid><description>&lt;p&gt;&lt;em&gt;This is Part 2 of my Linux Odyssey series. &lt;a href="https://nezutero.dev/my-linux-odyssey-how-i-ended-up-on-nixos/"&gt;Part 1&lt;/a&gt; covers my path from Ubuntu through Arch Linux and why I decided to try NixOS in the first place. If you haven&amp;rsquo;t read it, start there.&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="the-breaking-point"&gt;The Breaking Point&lt;/h2&gt;
+&lt;p&gt;About a week after I published my first post, I had a crisis of confidence.&lt;/p&gt;
+&lt;p&gt;I had been using NixOS for roughly four weeks at that point, and I was deep in it: learning about flakes, home-manager, the differences between various configuration approaches, the philosophy behind the whole project. I had hit several footguns, sat through long debugging sessions, and felt the weight of having an infinite number of ways to do any given thing. Instead of feeling like I was mastering something, I felt overwhelmed.&lt;/p&gt;</description></item><item><title>LLM Statement</title><link>http://nezutero.dev/llm-statement/</link><pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate><guid>http://nezutero.dev/llm-statement/</guid><description>&lt;p&gt;The following statement was originally written by &lt;a href="https://gracefulliberty.com/llms/"&gt;Anna Liberty&lt;/a&gt;.
+It deeply resonates with who I am and who I want to be. I&amp;rsquo;m grateful I can use it to express my
+values.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I do not use LLMs or other &amp;ldquo;Generative AI&amp;rdquo; for prose or code, nor do I accept it from others as open source contributions.&lt;/p&gt;
+&lt;p&gt;I do not discuss my prose or code with LLMs.&lt;/p&gt;
+&lt;p&gt;I do not consult LLMs for projects, contributions, assignments, research, or anything else.&lt;/p&gt;</description></item><item><title>My Linux Odyssey: How I Ended Up on NixOS</title><link>http://nezutero.dev/my-linux-odyssey-how-i-ended-up-on-nixos/</link><pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate><guid>http://nezutero.dev/my-linux-odyssey-how-i-ended-up-on-nixos/</guid><description>&lt;p&gt;&lt;em&gt;Last updated: 21 July 2026&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;A personal account of distro-hopping, window managers, and eventually finding NixOS.&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="part-1-how-it-all-started"&gt;Part 1: How It All Started&lt;/h2&gt;
+&lt;p&gt;I started using Linux about four years ago. My very first distribution was Fedora, followed by Ubuntu, which I used for about a month before switching back. The main reason I left Ubuntu was its interface; I simply didn&amp;rsquo;t like it. But beneath that was a deeper frustration: bloat. Ubuntu came pre-installed with so much software that, as someone still finding their footing in Linux, I felt completely lost. I tried removing things, but the sheer volume of it all was overwhelming.&lt;/p&gt;</description></item><item><title>Why I Don't Trust Telegram</title><link>http://nezutero.dev/why-i-dont-trust-telegram/</link><pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate><guid>http://nezutero.dev/why-i-dont-trust-telegram/</guid><description>&lt;h2 id="privacy"&gt;Privacy&lt;/h2&gt;
+&lt;p&gt;My Telegram aversion started because of privacy concerns triggered by rumors and verified facts &amp;ndash; like data being shared with governments while Telegram pretends to be the most secure and private messenger that will under no circumstances share anything with anyone. A messenger that claims to champion human rights and free speech, while simultaneously blocking opposition channels to satisfy the requests of corrupt officials who are in power and afraid of losing it.&lt;/p&gt;</description></item></channel></rss>
