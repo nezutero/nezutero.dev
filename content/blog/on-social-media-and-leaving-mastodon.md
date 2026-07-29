@@ -1,7 +1,7 @@
 ---
 title: "On Social Media and Leaving Mastodon"
 date: "2026-07-29"
-tags: ["SocialMedia", "Distraction", "Intentional Living", "DigitalMinimalism", "Fediverse",
+tags: ["SocialMedia", "Distraction", "IntentionalLiving", "DigitalMinimalism", "Fediverse",
 "Mastodon"]
 ---
 
