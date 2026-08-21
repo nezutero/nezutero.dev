@@ -1,6 +1,6 @@
 ---
 title: "The Ledger We Never Meant to Open"
-date: "2026-08-21"
+date: "2026-08-11"
 tags: ["discipline", "motivation", "habits", "learning"]
 ---
 
