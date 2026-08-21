@@ -1,2 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DigitalMinimalism on nezutero</title><link>http://nezutero.dev/blog/digitalminimalism/</link><description>Recent content in DigitalMinimalism on nezutero</description><generator>Hugo</generator><language>en-US</language><copyright>Copyright © 2026, nezutero</copyright><lastBuildDate>Wed, 29 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://nezutero.dev/blog/digitalminimalism/index.xml" rel="self" type="application/rss+xml"/><item><title>On Social Media and Leaving Mastodon</title><link>http://nezutero.dev/on-social-media-and-leaving-mastodon/</link><pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate><guid>http://nezutero.dev/on-social-media-and-leaving-mastodon/</guid><description>&lt;p&gt;This is my sixth attempt at using Mastodon, and I think it will be my last. I&amp;rsquo;ve had this account for one month and one day, and I&amp;rsquo;ve decided to delete it: not because of anything specific to Mastodon, but because I&amp;rsquo;ve concluded that I&amp;rsquo;m fundamentally incompatible with social media as a category.&lt;/p&gt;
-&lt;p&gt;Let me start with what actually worked. The Mastodon community is genuinely good. It&amp;rsquo;s largely made up of free and open source software enthusiasts and people who are passionate about their craft: the kind of people who cared enough to leave Twitter, which says something real about their commitment to their own values. I met smart people who shared my interests, especially around being intentional in life and intentional about how we use AI. For a while it felt like a clear, honest corner of the internet.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>DigitalMinimalism on nezutero</title>
+		<link>http://localhost:3000/blog/digitalminimalism/</link>
+		<description>Recent content in DigitalMinimalism on nezutero</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+			<copyright>Copyright © 2026, nezutero</copyright>
+		
+		
+			<lastBuildDate>Wed, 29 Jul 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:3000/blog/digitalminimalism/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>On Social Media and Leaving Mastodon</title>
+				<link>http://localhost:3000/on-social-media-and-leaving-mastodon/</link>
+				<pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:3000/on-social-media-and-leaving-mastodon/</guid>
+				<description>&lt;p&gt;This is my sixth attempt at using Mastodon, and I think it will be my last. I&amp;rsquo;ve had this account for one month and one day, and I&amp;rsquo;ve decided to delete it: not because of anything specific to Mastodon, but because I&amp;rsquo;ve concluded that I&amp;rsquo;m fundamentally incompatible with social media as a category.&lt;/p&gt;&#xA;&lt;p&gt;Let me start with what actually worked. The Mastodon community is genuinely good. It&amp;rsquo;s largely made up of free and open source software enthusiasts and people who are passionate about their craft: the kind of people who cared enough to leave Twitter, which says something real about their commitment to their own values. I met smart people who shared my interests, especially around being intentional in life and intentional about how we use AI. For a while it felt like a clear, honest corner of the internet.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
