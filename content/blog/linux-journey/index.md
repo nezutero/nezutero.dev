@@ -118,8 +118,6 @@ Do I think I might eventually go all-in and become a full NixOS purist? Maybe. B
 
 - My dotfiles: https://codeberg.org/nezutero/dotfiles
 
-- NixOS configs: https://codeberg.org/nezutero/nixos
-
 The next post will be the second part of this one, focusing on my experience with NixOS. It will cover my first month of daily use: what worked, what surprised me, where the rough edges are, what I miss and why, and what I don't miss. I will try to answer the question: is it worth committing yourself to learning NixOS and the Nix language? I had this question before switching, and I've continued thinking about it because NixOS is hard and complex -- these questions arise naturally. This will be the topic of the [next post](link).
 
 Thank you for reading.
