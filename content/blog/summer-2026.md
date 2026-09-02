@@ -18,6 +18,6 @@ I also like the idea that these posts will still exist in five or ten years, as 
 
 But underneath all of that, I mostly do this for myself -- to be in accord with my own thoughts, to actually make a point instead of just having a vague feeling about something, and to close chapters properly instead of just drifting out of them. This post is exactly that: a way of closing this one, and telling myself, in writing, what I'm about to focus on.
 
-University started yesterday, and I won't have anywhere near the amount of time I had this summer. I want to be a genuinely excellent student, and that means being honest about where my time and attention actually need to go. So writing won't be as frequent as it's been these past few months -- I'm aiming for about one post a month, maybe more if something insists on being written, or less; I will see. I'm not doing this out of obligation to anyone reading, only for my own pleasure, so that's the commitment I'm comfortable making.
+University started yesterday, and I don't have anywhere near the amount of time I had this summer. I want to be a genuinely excellent student, and that means being honest about where my time and attention actually need to go. So writing won't be as frequent as it's been these past few months -- I'm aiming for about one post a month, maybe more if something insists on being written, or less; I will see. I'm not doing this out of obligation to anyone reading, only for my own pleasure, so that's the commitment I'm comfortable making.
 
 Thank you for reading, and see you in the next one.
