@@ -40,7 +40,7 @@ ignoreErrors = ["error-disable-taxonomy"]
   # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
   title = "nezutero's blog"
 
-  codeberg = "https://codeberg.org/nezutero"
+  github = "https://github.com/nezutero"
   email = "me@nezutero.dev"
   rss = "blog/index.xml"
 

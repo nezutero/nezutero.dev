@@ -6,7 +6,7 @@ weight: 5
 
 A running list of the hardware and software I use day to day. Inspired by [uses.tech](https://uses.tech).
 
-My [dotfiles](https://codeberg.org/nezutero/dotfiles)
+My [dotfiles](https://github.com/nezutero/dotfiles)
 
 ## Hardware
 

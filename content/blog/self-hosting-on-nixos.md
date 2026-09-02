@@ -164,6 +164,6 @@ I don't have a grand roadmap here, and I'm trying to keep it that way on purpose
 
 I'll probably add something else eventually. When I do, it'll be because I actually wanted it, not because a list said I should, and it'll go into the same repo, in the same shape as everything else. That's kind of the whole point.
 
-My dotfiles: <https://codeberg.org/nezutero/dotfiles>
+My dotfiles: <https://github.com/nezutero/dotfiles>
 
 Thank you for reading.
