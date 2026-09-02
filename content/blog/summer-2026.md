@@ -1,6 +1,6 @@
 ---
 title: "On This Summer, and Why I'll Keep Writing"
-date: "2026-08-31"
+date: "2026-09-02"
 tags: ["Reflection", "Minimalism", "IntentionalLiving"]
 ---
 
