@@ -16,12 +16,13 @@ My [dotfiles](https://github.com/nezutero/dotfiles)
 ## Software
 
 - **OS**: [NixOS](https://nixos.org/) (Switched from Arch btw)
-- **WM**: [Hyprland](https://hyprland.org/) (Wayland)
+- **WM**: [Sway](https://swaywm.org/) on Wayland
 - **Term**: [foot](https://codeberg.org/dnkl/foot)
 - **Term multiplexer**: [tmux](https://github.com/tmux/tmux)
 - **Shell**: [zsh](https://www.zsh.org/)
 - **Editor**: [Neovim](https://neovim.io/)
-- **Colors**: [Kanagawa Dragon](https://github.com/Fausto-Korpsvart/Kanagawa-GKT-Theme)
+- **Colors**: [Kanagawa Dragon](https://github.com/Fausto-Korpsvart/Kanagawa-GKT-Theme) &
+[Tokyonight](https://github.com/folke/tokyonight.nvim)
 - **Launcher**: [rofi](https://github.com/davatorium/rofi)
 - **Password manager**: [gnu pass](https://www.passwordstore.org/)
 - **Notification daemon**: [dunst](https://github.com/dunst-project/dunst)
