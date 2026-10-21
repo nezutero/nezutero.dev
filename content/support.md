@@ -4,22 +4,46 @@ menu: "main"
 weight: 6
 ---
 
-I like sharing things I've learned in the form of writing on my website, as well as creating stuff that will be useful to others. I thought it would be better to have an option via which I can be supported, just in case the things I do have helped someone.
+I write about things I've learned and build things I hope are useful to others. If something here has helped you, you're welcome to support that work through any of the options below.
 
-If something here has been useful to you, you're welcome to support the work through any of the options below.
+## Platforms
 
-[ko-fi.com/nezutero](https://ko-fi.com/nezutero)
+- [Liberapay](https://liberapay.com/nezutero/): recurring donations through a nonprofit, open-source platform
+- [GitHub Sponsors](https://github.com/sponsors/nezutero): monthly or one-time, if you have a GitHub account
+- [Ko-fi](https://ko-fi.com/nezutero): a quick one-time tip, no account needed
 
-[liberapay.com/nezutero](https://liberapay.com/nezutero/)
+## Crypto
 
-ETH: 0x47bdf4aFfCD4a0f6Ac42112A15dFC23d94d1A2fc
+Please send only the coin on the network named above each address. Funds sent on a different network may be lost.
 
-BTC: bc1q3qj77mau2afm84m6p3epdu04dmdwazh8r0p9aw
+**Monero (XMR)**
 
-SOL: ANSXTk4iyqsYh7XJrVatRrjkxVZ4LzNiNGNDmbHoVC1H
+```
+48Royu3f7Xba3cktSeKxihLGreCf1HLaLg82Uaez4FD16YxTX47D7zBKMNJ4kzngcvQ7YPURU1KVaYBRbFzuQPDoP2JpdvP
+```
 
-TRON: TB8duzicLeCMMG9pozetvPaLeRiftmEfiw
+**Bitcoin (BTC)**
 
-MONERO: 48Royu3f7Xba3cktSeKxihLGreCf1HLaLg82Uaez4FD16YxTX47D7zBKMNJ4kzngcvQ7YPURU1KVaYBRbFzuQPDoP2JpdvP
+```
+bc1q3qj77mau2afm84m6p3epdu04dmdwazh8r0p9aw
+```
+
+**Ethereum (ETH)**
+
+```
+0x47bdf4aFfCD4a0f6Ac42112A15dFC23d94d1A2fc
+```
+
+**Solana (SOL)**
+
+```
+ANSXTk4iyqsYh7XJrVatRrjkxVZ4LzNiNGNDmbHoVC1H
+```
+
+**Tron (TRX)**
+
+```
+TB8duzicLeCMMG9pozetvPaLeRiftmEfiw
+```
 
 Thank you.
