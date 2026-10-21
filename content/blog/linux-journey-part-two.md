@@ -4,7 +4,7 @@ date: "2026-07-21"
 tags: ["NixOS", "Linux"]
 ---
 
-*This is Part 2 of my Linux Odyssey series. [Part 1](https://nezutero.dev/my-linux-odyssey-how-i-ended-up-on-nixos/) covers my path from Ubuntu through Arch Linux and why I decided to try NixOS in the first place. If you haven't read it, start there.*
+*This is Part 2 of my Linux Odyssey series. [Part 1](https://nezutero.dev/how-i-ended-up-on-nixos) covers my path from Ubuntu through Arch Linux and why I decided to try NixOS in the first place. If you haven't read it, start there.*
 
 ---
 
@@ -293,3 +293,7 @@ Here are the resources I found most helpful:
 **Example configs to learn from**
 - [nix-starter-configs](https://github.com/Misterio77/nix-starter-configs)
 - [More examples on the NixOS wiki](https://nixos.wiki/wiki/Configuration_Collection)
+
+---
+
+Read [the third part](https://nezutero.dev/self-hosting-on-nixos)

@@ -124,4 +124,4 @@ Thank you for reading.
 
 ---
 
-Read the [second part](https://nezutero.dev/almost-went-back-one-month-on-nixos)
+Read the [second part](https://nezutero.dev/almost-went-back-after-one-month-on-nixos)

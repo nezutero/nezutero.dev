@@ -4,15 +4,9 @@ date: 2026-08-26
 tags: ["NixOS", "Linux", "Self-Hosting"]
 ---
 
-*This is Part 3 of my Linux Odyssey series. [Part 1](https://nezutero.dev/my-linux-odyssey-how-i-ended-up-on-nixos/) covers how I ended up on NixOS in the first place, and [Part 2](https://nezutero.dev/almost-went-back-one-month-on-nixos/) covers my first month actually living on it, flash drive and all. If you haven't read them, start there.*
+*This is Part 3 of my NixOS journey series. [Part 1](https://nezutero.dev/how-i-ended-up-on-nixos) covers how I ended up on NixOS in the first place, and [Part 2](https://nezutero.dev/almost-went-back-after-one-month-on-nixos) covers my first month actually living on it, flash drive and all. If you haven't read them, start there.*
 
 Here I'll be talking about modularizing my NixOS config, merging two repos into one, and finally self-hosting again without the dread.
-
-> The only thing we have to fear is fear itself.
->
-> -- Franklin D. Roosevelt
-
-The title isn't subtle, I know. But four self-hosting attempts in, I think I've earned the reference.
 
 ---
 
