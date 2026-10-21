@@ -24,7 +24,7 @@ None of this is decorative. It's the actual infrastructure of staying connected 
 
 So I bought one: a Kyocera Digno 4 Keitai (A202KC), Android 10 running underneath the shell, for about 110 euros on eBay. It arrived in three days, faster than I expected. I picked it up in the morning and spent the rest of that entire day tinkering with it, setting it up, learning the layout, testing what it could and couldn't do.
 
-{{< gallery src="../../static/images/keitai-experience/1.webp" name="Kyocera A202KC (Image 1)" >}}
+{{< gallery src="/images/keitai-experience/1.webp" name="Kyocera A202KC (Image 1)" >}}
 
 That 110 euros is not a small amount to me. I'm a student living on scholarship money, I don't work, and every euro I spend on an experiment like this is a euro I'm not spending on something else. I want to be honest about that, because it shaped how seriously I took the whole process -- this wasn't an idle purchase.
 
