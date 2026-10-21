@@ -1,5 +1,5 @@
 ---
-title: "Nothing to Fear: Self-Hosting on NixOS"
+title: "Self-Hosting on NixOS"
 date: 2026-08-26
 tags: ["NixOS", "Linux", "Self-Hosting"]
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Almost Went Back: One Month on NixOS"
+title: "Almost Went Back After One Month on NixOS"
 date: "2026-07-21"
 tags: ["NixOS", "Linux"]
 ---

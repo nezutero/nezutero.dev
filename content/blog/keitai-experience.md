@@ -1,5 +1,5 @@
 ---
-title: "Keitai Experience: Kyocera A202KC"
+title: "My Keitai Experience with Kyocera A202KC"
 date: "2026-08-21"
 tags: ["Keitai", "DigitalMinimalism", "Technology", "Smartphones", "IntentionalLiving"]
 ---
@@ -24,7 +24,7 @@ None of this is decorative. It's the actual infrastructure of staying connected 
 
 So I bought one: a Kyocera Digno 4 Keitai (A202KC), Android 10 running underneath the shell, for about 110 euros on eBay. It arrived in three days, faster than I expected. I picked it up in the morning and spent the rest of that entire day tinkering with it, setting it up, learning the layout, testing what it could and couldn't do.
 
-{{< gallery src="../images/1.webp" name="Kyocera A202KC (Image 1)" >}}
+{{< gallery src="../../static/images/keitai-experience/1.webp" name="Kyocera A202KC (Image 1)" >}}
 
 That 110 euros is not a small amount to me. I'm a student living on scholarship money, I don't work, and every euro I spend on an experiment like this is a euro I'm not spending on something else. I want to be honest about that, because it shaped how seriously I took the whole process -- this wasn't an idle purchase.
 
@@ -32,7 +32,7 @@ That 110 euros is not a small amount to me. I'm a student living on scholarship 
 
 The device came loaded with Japanese bloatware I had no use for in France, so the first task was stripping that out and rebuilding it around what I'd actually need. I installed WhatsApp, Telegram, Molly (a Signal fork), Aurora Store as a Google Play alternative, and Droidify, an F-Droid client I ended up liking better than the official F-Droid app. I switched the input method to TT9 after briefly trying a couple of alternatives, and found an app for setting custom key shortcuts, though I never really committed to configuring it (more on why below). Signal reception was solid both inside my apartment and outside on the street, 4G held up fine in everyday use -- though I never tested it outside the city, so I can't speak to that.
 
-{{< gallery src="./images/2.webp" name="Kyocera A202KC (Image 2)" >}}
+{{< gallery src="../../static/images/keitai-experience/1.webp" name="Kyocera A202KC (Image 2)" >}}
 
 Physically, the phone is genuinely pleasant -- lighter than my Pixel 8, comfortable in the hand, different in a way that felt novel rather than gimmicky, at least at first. Flipping it open, watching the small external clock, hearing the mechanical click: there's real charm in it, and I don't want to undersell that part. Call audio, on the other hand, is mediocre. The device has a single speaker that doubles as the earpiece, so voice calls come through loud enough to function as an alarm but not exactly pleasant to listen to. Calls made over Telegram, which is the only app I actually tested this way, were about what you'd expect: usable, unremarkable, fine for a quick conversation and nothing more.
 
@@ -48,7 +48,7 @@ Even small tasks took visibly longer, and not only during the first clumsy hour.
 
 There's also the camera question, which I think matters more than it first appears. It has one 8 MP camera, which is a potato by today's standards.
 
-{{< gallery src="./images/3.webp" name="Photo taken on Kyocera A202KC" >}}
+{{< gallery src="../../static/images/keitai-experience/3.webp" name="Photo taken on Kyocera A202KC" >}}
 
 If you actually want to use a device like this as your main daily driver, and you're not willing to give up photography entirely, you more or less need to carry a separate camera. For me, someone who thinks of himself as a fairly serious digital minimalist, that creates its own contradiction: the whole point was to carry less and depend on less, and yet the "solution" quietly demands acquiring another object to compensate for what the phone can't do.
 

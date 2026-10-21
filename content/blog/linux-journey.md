@@ -1,5 +1,5 @@
 ---
-title: "My Linux Odyssey: How I Ended Up on NixOS"
+title: "How I Ended Up on NixOS"
 date: "2026-06-28"
 tags: ["NixOS", "Linux", "Arch Linux"]
 ---
@@ -16,9 +16,9 @@ I started using Linux about four years ago. My very first distribution was Fedor
 
 That led me back to Fedora. I had heard it was a more sophisticated distribution, and that reputation drew me in. I ended up spending several months there, and during that time I fell deep into the rabbit hole of GNOME customization. Using GNOME Tweaks and extensions from the GNOME extension store, I spent hours adjusting every small detail I could find: dozens of tweaks, custom layouts, themes, you name it. I still have screenshots from that period.
 
-{{< gallery src="./images/1.webp" name="Fedora GNOME Tweaks 1" >}}
-{{< gallery src="./images/2.webp" name="Fedora GNOME Tweaks 2" >}}
-{{< gallery src="./images/3.webp" name="Fedora GNOME Tweaks 3">}}
+{{< gallery src="../../static/images/linux-journey/1.webp" name="Fedora GNOME Tweaks 1" >}}
+{{< gallery src="../../static/images/linux-journey/2.webp" name="Fedora GNOME Tweaks 2" >}}
+{{< gallery src="../../static/images/linux-journey/3.webp" name="Fedora GNOME Tweaks 3">}}
 
 But the same core frustration eventually came back. I still felt like I didn't have real control over my system. I wanted to decide exactly what went on it, from the display protocol to the window manager to individual applications. And that desire led me to Arch Linux.
 
@@ -30,7 +30,7 @@ The appeal of Arch Linux is something many Linux users will recognize immediatel
 
 The first thing I wanted to try was something I had been experimenting with near the end of my time on Fedora: switching from a full desktop environment to a standalone window manager. The timing felt perfect. A new operating system and a completely new way of interacting with my desktop, all at once. I set up bspwm on X11, with Polybar as my status bar, Zsh as my shell, and a solid collection of plugins including syntax highlighting and autocompletion. The whole setup worked exactly the way I wanted it to.
 
-{{< gallery src="./images/4.webp" name="Arch TTY memories">}}
+{{< gallery src="../../static/images/linux-journey/4.webp" name="Arch TTY memories">}}
 
 ---
 
@@ -38,13 +38,13 @@ The first thing I wanted to try was something I had been experimenting with near
 
 After about four months on X11, I decided to make the switch to Wayland. At the time, even though it was only about three years ago, it was still less common than it is today; it felt more like an enthusiast choice than a mainstream one, and a less stable one at that. I started using Hyprland as my compositor, paired with Waybar, and I have been refining that configuration ever since, gradually improving it over the years.
 
-{{< gallery src="./images/5.webp" name="Voice acting home studio on arch">}}
+{{< gallery src="../../static/images/linux-journey/5.webp" name="Voice acting home studio on arch">}}
 
 During that time I also did a lot of experimenting with other tooling. On the terminal side, I went through Alacritty, Kitty, Foot (a minimal terminal written in C), and Ghostty (written in Zig, btw). For shells, I gave Fish a serious try before eventually returning to Zsh. After all of that, I settled on Kitty as my primary terminal. The deciding factor was image rendering: Kitty supports displaying images and video previews inline, which matters a lot to me because I use the terminal for almost everything, from file browsing and listening to music to watching videos. Alacritty is still the terminal I admire most on a philosophical level, given its focus on minimalism and performance, but the missing image support is a dealbreaker for my specific workflow.
 
 **[21 July 2026] Update:** A few weeks ago, I've switched to [foot](https://github.com/dnkl/foot), which is faster, uses less memory, wayland native, and is quite minimalist -- unlike kitty. It supports image previews and is written in C. It's really great.
 
-{{< gallery src="./images/6.webp" name="Latest arch rice">}}
+{{< gallery src="../../static/images/linux-journey/6.webp" name="Latest arch rice">}}
 
 ---
 
@@ -108,7 +108,7 @@ The Nix language itself also has a steep learning curve, which was the main thin
 
 I have now been using NixOS for about three weeks. My expectations going in were perhaps a little too idealistic. I had half-convinced myself it would be a silver bullet, and of course no tool really is. But the core idea is genuinely powerful, and I believe that once you have properly invested in learning it, it gets remarkably close to one.
 
-{{< gallery src="./images/7.webp" name="My current NixOS setup">}}
+{{< gallery src="../../static/images/linux-journey/7.webp" name="My current NixOS setup">}}
 
 I'm not fully committed to the pure Nix way of configuring everything; I configure the majority of my system through Nix, but I keep my dotfiles and application-specific configurations separate. Things like Hyprland, rofi, and Neovim live in their own dotfiles directory rather than being fully declared in Nix. I use home-manager to manage these, and it simply creates symlinks from my dotfiles repository into the appropriate locations in my home directory.
 
