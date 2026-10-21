@@ -6,15 +6,14 @@ weight: 2
 
 ## Who I Am
 
-Administrativaly my name is Dmytro, but I find Dimitri to be better in terms of sound and simplicity
-for others. Dimitri is a french first name, its meaning is “devoted to, dedicated to, or follower of
-Demeter”, and Demeter is a greek god of the harvest and agriculture. It was really interesting to
-find out all that stuff about my name; I wonder if my grandpa who had given me my name was thinking
-about it the same way I do. My family name is Nesterenko, which is a Ukrainian surname meaning son
-or daughter of Nester/Nestor. Who is Nestor? In Greek mythology it comes from that of Nestor, the
-son of Neleus, the King of Pylos and Chloris. I read a bunch of info about it, even thought it was
-interesting to learn about my family name's origins, precisely because it is related to me, but
-usually I'm not really into it. Ah yeah, and I'm from Ukraine. While I value and appriciate my origins, I consider myself a [cosmopolitan](https://en.wikipedia.org/wiki/Cosmopolitanism).
+Officially, my name is Dmytro, but I think "Dimitri" sounds better and is easier
+for others to say. Dimitri is a French name that means "devoted to, dedicated to, or a follower of
+Demeter," the Greek goddess of harvests and agriculture. It was really interesting to
+learn all this about my first name; I wonder if my grandfather, who gave me this name, thought about it
+the same way I do. My last name is Nesterenko, a Ukrainian name that means "son
+or daughter of Nester/Nestor." Who is Nestor? In Greek mythology, this name comes from Nestor, the
+son of Neleus, king of Pylos, and Chloris. I’ve read quite a bit about this; even though I found
+it interesting to learn more about the origins of my last name -- precisely because it pertains to me; usually, this sort of thing doesn’t really interest me. Oh, and I’m originally from Ukraine. Although I value my roots and appreciate them, I consider myself [cosmopolitan](https://en.wikipedia.org/wiki/Cosmopolitanism).
 
 I'm a computer science student, originally from Ukraine, now living in Rennes, France. I wanna master my craft, become a good engineer, build something meaningful, that can change lives of people in a positive/useful manner. Also, I don't believe in limiting myself to a single label.
 
