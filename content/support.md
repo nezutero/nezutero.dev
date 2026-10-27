@@ -8,9 +8,8 @@ I write about things I've learned and build things I hope are useful to others. 
 
 ## Platforms
 
-- [Liberapay](https://liberapay.com/nezutero/): recurring donations through a nonprofit, open-source platform
-- [GitHub Sponsors](https://github.com/sponsors/nezutero): monthly or one-time, if you have a GitHub account
 - [Ko-fi](https://ko-fi.com/nezutero): a quick one-time tip, no account needed
+- [GitHub Sponsors](https://github.com/sponsors/nezutero): monthly or one-time, if you have a GitHub account
 
 ## Crypto
 
