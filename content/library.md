@@ -4,6 +4,8 @@ menu: "main"
 weight: 4
 ---
 
+- [Surely You're Joking, Mr. Feynman!](https://www.goodreads.com/book/show/35167685-surely-you-re-joking-mr-feynman) by Richard P. Feynman
+
 - [Digital Minimalism](https://www.goodreads.com/book/show/40672036-digital-minimalism) by Cal Newport
 
 - [Dopamine Nation](https://www.goodreads.com/book/show/55723020-dopamine-nation?ref=rae_2) by Anna Lembke
